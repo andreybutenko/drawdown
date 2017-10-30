@@ -1,0 +1,146 @@
+{
+	"events": [
+		{
+			"title": "A Growing City!",
+			"description": "Your city is growing quickly, and you're concerned about potential gridlock.\nYou have some options to address this:",
+			"options": [
+				{
+					"title":  "Mass Transit",
+					"description": "Benefits go beyond emissions reduction! Traffic congestion is reduced, fewer accidents occur, and air quality improves.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 1000000,
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "display",
+							"label": "Savings by 2050",
+							"value": 2500000,
+							"displayValue": "$2,500,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -100,
+							"displayValue": "100 megatons/year"
+						}
+					]
+				},
+				{
+					"title":  "Ridesharing",
+					"description": "Cheap gas and free parking compels people to travel alone. Incentivizing ridesharing may reduce the number of cars on the road.",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "display",
+							"label": "Savings by 2050",
+							"value": 1000000,
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -10,
+							"displayValue": "10 megatons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do nothing",
+					"description": "As the city continues to grow, developing transportation infrastructure will become more expensive.",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "happiness",
+							"label": "Happiness",
+							"bad": true,
+							"value": -10,
+							"displayValue": "-10"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Cold Weather",
+			"description": "In the winter, heating is a big source of energy draw. Solutions often increase energy efficiency in both the summer and the winter!\nYou can take action:",
+			"options": [
+				{
+					"title":  "Insulation",
+					"description": "Incentivizing insulation would prevent unwanted heat loss and gain, both in the winter and the summer!",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 500000,
+							"displayValue": "$500,000"
+						},
+						{
+							"type": "display",
+							"label": "Savings by 2050",
+							"value": 1000000,
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -100,
+							"displayValue": "100 megatons/year"
+						}
+					]
+				},
+				{
+					"title":  "District Heating",
+					"description": "District Heating and Cooling (DHC) features a central plant to channel hot and cool water to many buildings. This enables thermal energy to be provided collectively and efficiently!",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 2000000,
+							"displayValue": "$2,000,000"
+						},
+						{
+							"type": "display",
+							"label": "Savings by 2050",
+							"value": 1000000,
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -75,
+							"displayValue": "75 megatons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do nothing",
+					"description": "Your emissions from heating cooling will continue to increase as time goes on.",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Gain",
+							"value": 20,
+							"displayValue": "20 megatons/year"
+						}
+					]
+				}
+			]
+		}
+	]
+}
