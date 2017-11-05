@@ -53,7 +53,7 @@
 				},
 				{
 					"title":  "Do nothing",
-					"description": "As the city continues to grow, developing transportation infrastructure will become more expensive.",
+					"description": "People don't like getting stuck in traffic! As the city continues to grow, developing transportation infrastructure will become more expensive.",
 					"effects": [
 						{
 							"type": "display",

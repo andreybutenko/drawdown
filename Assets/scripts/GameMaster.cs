@@ -9,6 +9,8 @@ public class GameMaster : MonoBehaviour {
     public int eventCooldownDays = 5;
     public int dailyEventChance = 5;
 
+    GameMasterBuilder gameMasterBuilder;
+
     int month = 1;
     int day = 1;
     int year = 18;
@@ -26,7 +28,7 @@ public class GameMaster : MonoBehaviour {
     // Dictionary<string, int> inflows = new Dictionary<string, int>();
 
     void Start() {
-
+        gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
     }
 
     void Update() {
@@ -62,6 +64,7 @@ public class GameMaster : MonoBehaviour {
 
         balance += inflow;
         totalEmissions = annualEmissions / 365;
+        gameMasterBuilder.generateBuildings(2);
     }
 
     public int[] getCurrentDate() {
