@@ -38,9 +38,22 @@ public class EventUI : MonoBehaviour {
     }
 
     public void onSelectOption(JSONObject optionObj) {
-        gameMaster.gameRunning = true;
-        gameMaster.executeOption(optionObj);
-        Object.Destroy(gameObject.transform.FindChild(PANEL_NAME).gameObject);
+        if(getCostFromEvent(optionObj) <= gameMaster.getCurrentBalance()) {
+            gameMaster.gameRunning = true;
+            gameMaster.executeOption(optionObj);
+            Object.Destroy(gameObject.transform.FindChild(PANEL_NAME).gameObject);
+        }
+    }
+
+    private int getCostFromEvent(JSONObject optionObj) {
+        for(int j = 0; j < optionObj.GetField("effects").list.Count; j++) {
+            JSONObject effectObj = optionObj.GetField("effects").list[j];
+            if(effectObj.GetField("type").str == "cost") {
+                return (int) effectObj.GetField("value").i;
+            }
+        }
+
+        return 0;
     }
 
     public void displayEvent(JSONObject eventObj) {
