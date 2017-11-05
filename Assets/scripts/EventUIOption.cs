@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 
 public class EventUIOption : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler {
     EventUI eventUi;
-    public String description;
+    public JSONObject optionJson;
     
 	void Start () {
         eventUi = GameObject.Find("EventUI").GetComponent<EventUI>();
@@ -17,7 +17,7 @@ public class EventUIOption : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 	}
 
     public void OnPointerEnter(PointerEventData eventData) {
-        eventUi.onHighlightOption(description);
+        eventUi.onHighlightOption(optionJson.GetField("description").str);
     }
 
     public void OnPointerExit(PointerEventData eventData) {
@@ -25,6 +25,6 @@ public class EventUIOption : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     }
 
     public void OnPointerClick(PointerEventData eventData) {
-        eventUi.onSelectOption();
+        eventUi.onSelectOption(optionJson);
     }
 }

@@ -7,11 +7,11 @@ public class StatusDate : MonoBehaviour {
     public GameMaster gameMaster;
     Text dateText;
 
-	void Start () {
+	void Start() {
         dateText = gameObject.GetComponent<Text>();
 	}
 	
-	void Update () {
+	void Update() {
         int[] currentDate = gameMaster.getCurrentDate();
         dateText.text = withLeadingZero(currentDate[0]) + "/" + withLeadingZero(currentDate[1]) + "/" + currentDate[2];
     }

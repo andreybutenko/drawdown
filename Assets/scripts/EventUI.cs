@@ -37,8 +37,9 @@ public class EventUI : MonoBehaviour {
         descriptionText.text = desc != null ? desc : currentEventObj.GetField("description").str.Replace("\\n", "\n");
     }
 
-    public void onSelectOption() {
+    public void onSelectOption(JSONObject optionObj) {
         gameMaster.gameRunning = true;
+        gameMaster.executeOption(optionObj);
         Object.Destroy(gameObject.transform.FindChild(PANEL_NAME).gameObject);
     }
 
@@ -69,7 +70,7 @@ public class EventUI : MonoBehaviour {
             optionTitleText.text = optionObj.GetField("title").str;
 
             EventUIOption optionScript = newOption.GetComponent<EventUIOption>();
-            optionScript.description = optionObj.GetField("description").str;
+            optionScript.optionJson = optionObj;
             
             for(int j = 0; j < optionObj.GetField("effects").list.Count; j++) {
                 JSONObject effectObj = optionObj.GetField("effects").list[j];
