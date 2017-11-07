@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameMasterBuilder : MonoBehaviour {
     public GameObject[] buildings;
-    public int maxPosition = 500;
+    public int maxPosition = 300;
     public int elevation = 3;
     
 	void Start() {
