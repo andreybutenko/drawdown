@@ -52,7 +52,7 @@
 					]
 				},
 				{
-					"title":  "Do nothing",
+					"title":  "Do Nothing",
 					"description": "People don't like getting stuck in traffic! As the city continues to grow, developing transportation infrastructure will become more expensive.",
 					"effects": [
 						{
@@ -124,7 +124,7 @@
 					]
 				},
 				{
-					"title":  "Do nothing",
+					"title":  "Do Nothing",
 					"description": "Your emissions from heating cooling will continue to increase as time goes on.",
 					"effects": [
 						{
@@ -137,6 +137,287 @@
 							"label": "Emissions Gain",
 							"value": 20,
 							"displayValue": "20 tons/year"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Waste Management",
+			"description": "Insufficient efforts to promote recycling, composting, and other methods of waste diversion means your waste-processing facilities will soon be overwhelmed! To avoid disaster, you need to make a decision:",
+			"options": [
+				{
+					"title":  "Waste-to-Energy",
+					"description": "A transitional strategy for a world that wastes too much and needs to reduce its emissions, but would the public feel good with emitted heavy metals and toxic compounds?",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 200000,
+							"displayValue": "$200,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 100000,
+							"displayValue": "$100,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -20,
+							"displayValue": "20 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Industrial Recycling",
+					"description": "Make materials and goods recyclable, to reduce emissions from extracting, transporting, and processing raw materials.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 1000000
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 200000,
+							"displayValue": "$200,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -30,
+							"displayValue": "30 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "There is a high risk of pollution from the landfill site. The public will not be happy with that!",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "happiness",
+							"label": "Happiness",
+							"bad": true,
+							"value": -1,
+							"displayValue": "-1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Extra Funds!",
+			"description": "you are rewarded with a grant from the government for meeting environmental targets ahead of time. What are you going to do with this fund?",
+			"options": [
+				{
+					"title":  "Solar Water",
+					"description": "Solar water heating ¡ª exposing water to the sun to warm it ¡ª can reduce that fuel consumption by 50 to 70 percent.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 50000,
+							"displayValue": "$50,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 800000,
+							"displayValue": "$800,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -100,
+							"displayValue": "100 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Nuclear",
+					"description": "Generating electricity from nuclear fission is very efficient in reducing carbon-dioxide emission, but safety and public acceptance are still the problem.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 15000
+							"displayValue": "$15,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 1500000,
+							"displayValue": "$1,500,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -250,
+							"displayValue": "250 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "Save this fund for later use.",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "New Buildings",
+			"description": "With expansion of urban population, more residential and office spaces are needed. Do you want to improve any building regulation for new buildings?",
+			"options": [
+				{
+					"title":  "Building Automation",
+					"description": "Replace buildings with conventional pneumatic or electric control systems.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 500000,
+							"displayValue": "$500,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 800000,
+							"displayValue": "$800,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -75,
+							"displayValue": "75 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Insulation",
+					"description": "Use improved materials in building envelopes that resist heat flow and regulate indoor temperatures.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 5000000,
+							"displayValue": "$5,000,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 5000000,
+							"displayValue": "$5,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -90,
+							"displayValue": "90 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "A large amount energy will be simply wasted!",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "happiness",
+							"label": "Happiness",
+							"bad": true,
+							"value": -1,
+							"displayValue": "-1"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "PSA Opportunity!",
+			"description": "There is a chance for you to promote energy conservation and environment protection in a public service advertisement on TV. What topic do you want to emphasize?",
+			"options": [
+				{
+					"title":  "Reducing Food Waste",
+					"description": "Producing uneaten food squanders a whole host of resources ¡ª let's avoid that!",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 10000,
+							"displayValue": "$10,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 100000,
+							"displayValue": "$100,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -100,
+							"displayValue": "100 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Composting",
+					"description": "Convert biodegradable waste to a useful soil amendment, while avoiding emissions from landfills.",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 100000,
+							"displayValue": "$100,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 100000,
+							"displayValue": "$100,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -30,
+							"displayValue": "30 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "People will doubt your determination toward environment protection!",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
+						},
+						{
+							"type": "happiness",
+							"label": "Happiness",
+							"bad": true,
+							"value": -1,
+							"displayValue": "-1"
 						}
 					]
 				}

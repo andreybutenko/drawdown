@@ -65,7 +65,7 @@ public class GameMaster : MonoBehaviour {
 
         balance += annualInflow / 365;
         totalEmissions = annualEmissions / 365;
-        gameMasterBuilder.generateBuildings(2);
+        // gameMasterBuilder.generateBuildings(2);
     }
 
     public int[] getCurrentDate() {
