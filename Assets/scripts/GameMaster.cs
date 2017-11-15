@@ -6,6 +6,7 @@ public class GameMaster : MonoBehaviour {
     public float secPerTick = 0.5f;
     public bool gameRunning = true;
     public EventUI eventUi;
+    public StatusUITooltip tooltip;
     public int eventCooldownDays = 5;
     public int dailyEventChance = 5;
 
@@ -19,7 +20,7 @@ public class GameMaster : MonoBehaviour {
     int daysSinceLastEvent = 0;
 
     int balance = 5000000;
-    int inflow = 0;
+    int annualInflow = 100000;
     int totalEmissions = 0;
     int annualEmissions = 3471000; // Seattle 2014
 
@@ -62,9 +63,9 @@ public class GameMaster : MonoBehaviour {
             daysThisMonth = System.DateTime.DaysInMonth(year, month);
         }
 
-        balance += inflow;
+        balance += annualInflow / 365;
         totalEmissions = annualEmissions / 365;
-        gameMasterBuilder.generateBuildings(2);
+        // gameMasterBuilder.generateBuildings(2);
     }
 
     public int[] getCurrentDate() {
@@ -75,8 +76,16 @@ public class GameMaster : MonoBehaviour {
         return balance;
     }
 
+    public int getCurrentAnnualInflow() {
+        return annualInflow;
+    }
+
     public int getCurrentEmissions() {
         return annualEmissions;
+    }
+
+    public int getTotalEmissions() {
+        return totalEmissions;
     }
 
     public int getCurrentHappiness() {
@@ -99,7 +108,7 @@ public class GameMaster : MonoBehaviour {
                 balance = balance - value;
                 break;
             case "saving":
-                inflow = value / (12 * 365 * (2050 - 2018));
+                annualInflow = value / (2050 - 2018);
                 break;
             case "emissions":
                 annualEmissions = annualEmissions + value;
