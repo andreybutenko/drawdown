@@ -30,6 +30,11 @@ namespace FreeCamera
 				m_distance = Input.GetAxis("Mouse ScrollWheel") * 10f;
 				GetComponent<Camera>().transform.localPosition = GetComponent<Camera>().transform.position + GetComponent<Camera>().transform.forward * m_distance;
 			}
+
+			if (Input.GetMouseButton (0)) {
+				transform.Translate(Vector3.left * Input.GetAxis("Mouse X"));
+				transform.Translate(Vector3.down * Input.GetAxis("Mouse Y"));
+			}
 				
 		}
 			
