@@ -9,7 +9,6 @@ public class GameMaster : MonoBehaviour {
     public StatusUITooltip tooltip;
     public int eventCooldownDays = 5;
     public int dailyEventChance = 5;
-	public GameObject[] buildings;
 
     GameMasterBuilder gameMasterBuilder;
 
@@ -32,11 +31,9 @@ public class GameMaster : MonoBehaviour {
     // Dictionary<string, int> inflows = new Dictionary<string, int>();
 
     void Start() {
-        gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
-		buildings = GameObject.FindGameObjectsWithTag ("Bldg");
-		foreach (GameObject bldg in buildings) {
-			bldg.SetActive(false);
-		}
+		gameMasterBuilder = new GameMasterBuilder ("Bldg", 5, 2);
+        //gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
+		gameMasterBuilder.emptyCity ();
     }
 
     void Update() {
@@ -72,9 +69,9 @@ public class GameMaster : MonoBehaviour {
 
         balance += annualInflow / 365;
         totalEmissions = annualEmissions / 365;
-		buildings [bldgIndex].SetActive (true);
-		bldgIndex++;
-        // gameMasterBuilder.generateBuildings(2);
+		//buildings [bldgIndex].SetActive (true);
+		//bldgIndex++;
+        gameMasterBuilder.generateBuildings();
     }
 
     public int[] getCurrentDate() {
