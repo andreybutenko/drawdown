@@ -10,7 +10,9 @@ public class GameMaster : MonoBehaviour {
     public int eventCooldownDays = 5;
     public int dailyEventChance = 5;
 
-    GameMasterBuilder gameMasterBuilder;
+    GameMasterBuilder buildingsBuilder;
+	GameMasterBuilder infrastructuresBuilder;
+	GameMasterBuilder vehiclesBuilder;
 
     int month = 1;
     int day = 1;
@@ -26,14 +28,18 @@ public class GameMaster : MonoBehaviour {
 
     int happiness = 6; // Seattle 2011
 
-	int bldgIndex = 0;
 
     // Dictionary<string, int> inflows = new Dictionary<string, int>();
 
     void Start() {
-		gameMasterBuilder = new GameMasterBuilder ("Bldg", 5, 2);
+		buildingsBuilder = new GameMasterBuilder ("Bldg", 10, 1);
+		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 5, 2);
+		vehiclesBuilder = new GameMasterBuilder ("Vehicle", 1, 5);
+
         //gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
-		gameMasterBuilder.emptyCity ();
+		buildingsBuilder.clear ();
+		infrastructuresBuilder.clear ();
+		vehiclesBuilder.clear ();
     }
 
     void Update() {
@@ -71,7 +77,9 @@ public class GameMaster : MonoBehaviour {
         totalEmissions = annualEmissions / 365;
 		//buildings [bldgIndex].SetActive (true);
 		//bldgIndex++;
-        gameMasterBuilder.generateBuildings();
+		buildingsBuilder.generate();
+		infrastructuresBuilder.generate ();
+		vehiclesBuilder.generate ();
     }
 
     public int[] getCurrentDate() {

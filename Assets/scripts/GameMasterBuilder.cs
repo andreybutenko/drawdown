@@ -37,7 +37,7 @@ public class GameMasterBuilder : MonoBehaviour {
 			
 	}
 
-	public void emptyCity() {
+	public void clear() {
 		buildings = GameObject.FindGameObjectsWithTag (tag);
 		disruptList ();
 		foreach (GameObject bldg in buildings) {
@@ -46,7 +46,7 @@ public class GameMasterBuilder : MonoBehaviour {
 
 	}
 
-	public void generateBuildings() {
+	public void generate() {
 		if (bldgIndex % updateRate == 0) {
 			for (int i = 0; i < rate; i++) {
 				buildings [bldgIndex].SetActive (true);
