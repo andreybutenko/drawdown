@@ -569,7 +569,73 @@
 		},
 		{
 			"title": "Land Use",
-			"description": "Do not forget that there was a bare area in the suburb! To make use of that area, you decide: ",
+			"description": "Do not forget that there was a bare area in the suburb! To make use of that area, your decision is: ",
+			"options": [
+				{
+					"title":  "Afforestation",
+					"description:":  "Photosynthesis can absorb carbon-dioxide!",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 50000,
+							"displayValue": "$50,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 500000,
+							"displayValue": "$500,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -250,
+							"displayValue": "250 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Solar Farms",
+					"description": "Large amount of photovoltaic panels provide large amount of energy, making the costs negligible! ",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 100000,
+							"displayValue": "$100,000"
+						},
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 5000000,
+							"displayValue": "$5,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -500,
+							"displayValue": "500 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "It still costs money to maintain that land!",
+					"effects": [
+						{
+							"type": "cost",
+							"label": "Cost",
+							"value": 10000,
+							"displayValue":  "$10000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Land Use",
+			"description": "Do not forget that there was a bare area in the suburb! To make use of that area, your decision is: ",
 			"options": [
 				{
 					"title":  "Afforestation",

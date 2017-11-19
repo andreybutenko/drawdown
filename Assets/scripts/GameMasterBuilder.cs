@@ -47,13 +47,14 @@ public class GameMasterBuilder : MonoBehaviour {
 	}
 
 	public void generate() {
-		if (bldgIndex % updateRate == 0) {
-			for (int i = 0; i < rate; i++) {
-				buildings [bldgIndex].SetActive (true);
-				bldgIndex++;
+		if (bldgIndex < buildings.Length) {
+			if (bldgIndex % updateRate == 0) {
+				for (int i = 0; i < rate; i++) {
+					buildings [bldgIndex].SetActive (true);
+				}
 			}
+			bldgIndex++;
 		}
-		bldgIndex++;
 	}
 
  /*   public void generateBuildings(int count) {
