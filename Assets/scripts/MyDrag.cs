@@ -56,7 +56,7 @@ public class MyDrag : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointer
         FreeCamera.FreeCamera.instance.CanCtrl = false;
         if (Physics.Raycast(ray,out hit))
         {
-            if (hit.collider.CompareTag("Prop"))
+			if (hit.collider.CompareTag("Prop") &&　GameMaster.instance.balance>=cost)
             {
                 iamge.enabled = false;
                 FreeCamera.FreeCamera.instance.CanCtrl = false;
