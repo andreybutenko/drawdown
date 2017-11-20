@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameMaster : MonoBehaviour {
+public class GameMaster : MonoBehaviour
+{
+
+    public static GameMaster instance = null;
+
     public float secPerTick = 0.5f;
     public bool gameRunning = true;
     public EventUI eventUi;
@@ -22,16 +26,20 @@ public class GameMaster : MonoBehaviour {
     float timeInTick = 0;
     int daysSinceLastEvent = 0;
 
-    int balance = 5000000;
+    [HideInInspector]
+    public int balance = 5000000;
     int annualInflow = 100000;
     int totalEmissions = 0;
-    int annualEmissions = 3471000; // Seattle 2014
+    public int annualEmissions = 3471000; // Seattle 2014
 
     int happiness = 6; // Seattle 2011
 
 
     // Dictionary<string, int> inflows = new Dictionary<string, int>();
-
+    void Awake()
+    {
+        instance = this;
+    }
     void Start() {
 		buildingsBuilder = new GameMasterBuilder ("Bldg", 10, 1);
 		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 5, 1);
