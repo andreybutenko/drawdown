@@ -16,14 +16,14 @@ namespace FreeCamera
 		}
 
 		void Update () {
-			if (Input.GetMouseButton(1))
+			/*if (Input.GetMouseButton(1))
 			{
 				m_deltX += Input.GetAxis("Mouse X") * m_mSpeed;
 				m_deltY -= Input.GetAxis("Mouse Y") * m_mSpeed;
 				m_deltX = ClampAngle(m_deltX, -360, 360);
 				m_deltY = ClampAngle(m_deltY, -60, 60);
 				GetComponent<Camera>().transform.rotation = Quaternion.Euler(m_deltX, m_deltY, 0);
-			}
+			}*/
 				
 			if (Input.GetAxis("Mouse ScrollWheel") != 0)
 			{

@@ -13,6 +13,7 @@ public class GameMaster : MonoBehaviour {
     GameMasterBuilder buildingsBuilder;
 	GameMasterBuilder infrastructuresBuilder;
 	GameMasterBuilder vehiclesBuilder;
+	GameMasterBuilder boatsBuilder;
 
     int month = 1;
     int day = 1;
@@ -33,13 +34,15 @@ public class GameMaster : MonoBehaviour {
 
     void Start() {
 		buildingsBuilder = new GameMasterBuilder ("Bldg", 10, 1);
-		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 5, 2);
-		vehiclesBuilder = new GameMasterBuilder ("Vehicle", 1, 5);
+		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 5, 1);
+		vehiclesBuilder = new GameMasterBuilder ("Vehicle", 5, 1);
+		boatsBuilder = new GameMasterBuilder ("BoatAndShip", 50, 1);
 
         //gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
 		buildingsBuilder.clear ();
 		infrastructuresBuilder.clear ();
 		vehiclesBuilder.clear ();
+		boatsBuilder.clear ();
     }
 
     void Update() {
@@ -80,6 +83,7 @@ public class GameMaster : MonoBehaviour {
 		buildingsBuilder.generate();
 		infrastructuresBuilder.generate ();
 		vehiclesBuilder.generate ();
+		boatsBuilder.generate ();
     }
 
     public int[] getCurrentDate() {
