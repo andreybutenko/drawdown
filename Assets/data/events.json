@@ -427,7 +427,7 @@
 			"options": [
 				{
 					"title":  "Methane Digesters",
-					"description:":  "Make good use of organic waste! It can produce biogas for household heating.",
+					"description":  "Make good use of organic waste! It can produce biogas for household heating.",
 					"effects": [
 						{
 							"type": "cost",
@@ -499,7 +499,7 @@
 			"options": [
 				{
 					"title":  "Onshore Wind Turbines",
-					"description:":  "Take advantage of wind, with neither fuel cost nor pollution!",
+					"description":  "Take advantage of wind, with neither fuel cost nor pollution!",
 					"effects": [
 						{
 							"type": "cost",
@@ -571,7 +571,7 @@
 			"options": [
 				{
 					"title":  "Afforestation",
-					"description:":  "Photosynthesis can absorb carbon-dioxide!",
+					"description":  "Photosynthesis can absorb carbon-dioxide!",
 					"effects": [
 						{
 							"type": "cost",
