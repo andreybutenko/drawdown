@@ -11,7 +11,7 @@ public class GameMaster : MonoBehaviour
     public bool gameRunning = true;
     public EventUI eventUi;
     public StatusUITooltip tooltip;
-    public int eventCooldownDays = 5;
+    public int eventCooldownDays = 30;
     public int dailyEventChance = 5;
 
     GameMasterBuilder buildingsBuilder;
@@ -41,10 +41,10 @@ public class GameMaster : MonoBehaviour
         instance = this;
     }
     void Start() {
-		buildingsBuilder = new GameMasterBuilder ("Bldg", 10, 1);
-		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 5, 1);
-		vehiclesBuilder = new GameMasterBuilder ("Vehicle", 5, 1);
-		boatsBuilder = new GameMasterBuilder ("BoatAndShip", 50, 1);
+		buildingsBuilder = new GameMasterBuilder ("Bldg", 30, 1);
+		infrastructuresBuilder = new GameMasterBuilder ("Infrastructure", 15, 1);
+		vehiclesBuilder = new GameMasterBuilder ("Vehicle", 15, 1);
+		boatsBuilder = new GameMasterBuilder ("BoatAndShip", 100, 1);
 
         //gameMasterBuilder = gameObject.GetComponent<GameMasterBuilder>();
 		buildingsBuilder.clear ();
