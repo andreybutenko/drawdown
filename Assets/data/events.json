@@ -23,8 +23,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -100,
-							"displayValue": "100 tons/year"
+							"value": -1000,
+							"displayValue": "1000 tons/year"
 						}
 					]
 				},
@@ -46,8 +46,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -5,
-							"displayValue": "5 tons/year"
+							"value": -500,
+							"displayValue": "500 tons/year"
 						}
 					]
 				},
@@ -94,8 +94,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -100,
-							"displayValue": "100 tons/year"
+							"value": -1000,
+							"displayValue": "1000 tons/year"
 						}
 					]
 				},
@@ -118,8 +118,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -75,
-							"displayValue": "75 tons/year"
+							"value": -750,
+							"displayValue": "750 tons/year"
 						}
 					]
 				},
@@ -135,8 +135,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Gain",
-							"value": 20,
-							"displayValue": "20 tons/year"
+							"value": 200,
+							"displayValue": "200 tons/year"
 						}
 					]
 				}
@@ -165,8 +165,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -20,
-							"displayValue": "20 tons/year"
+							"value": -200,
+							"displayValue": "200 tons/year"
 						}
 					]
 				},
@@ -189,8 +189,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -30,
-							"displayValue": "30 tons/year"
+							"value": -300,
+							"displayValue": "300 tons/year"
 						}
 					]
 				},
@@ -223,10 +223,9 @@
 					"description": "Solar water heating ¡ª exposing water to the sun to warm it ¡ª can reduce that fuel consumption by 50 to 70 percent.",
 					"effects": [
 						{
-							"type": "cost",
+							"type": "display",
 							"label": "Cost",
-							"value": 50000,
-							"displayValue": "$50,000"
+							"value": "$0"
 						},
 						{
 							"type": "saving",
@@ -237,8 +236,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -100,
-							"displayValue": "100 tons/year"
+							"value": -1000,
+							"displayValue": "1000 tons/year"
 						}
 					]
 				},
@@ -247,10 +246,9 @@
 					"description": "Generating electricity from nuclear fission is very efficient in reducing carbon-dioxide emission, but safety and public acceptance are still the problem.",
 					"effects": [
 						{
-							"type": "cost",
+							"type": "display",
 							"label": "Cost",
-							"value": 15000
-							"displayValue": "$15,000"
+							"value": "$0"
 						},
 						{
 							"type": "saving",
@@ -261,14 +259,14 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -250,
-							"displayValue": "250 tons/year"
+							"value": -2500,
+							"displayValue": "2500 tons/year"
 						}
 					]
 				},
 				{
 					"title":  "Do Nothing",
-					"description": "Save this fund for later use.",
+					"description": "You cannot save this fund for later use - do you really want to give it up?",
 					"effects": [
 						{
 							"type": "display",
@@ -302,8 +300,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -75,
-							"displayValue": "75 tons/year"
+							"value": -750,
+							"displayValue": "750 tons/year"
 						}
 					]
 				},
@@ -326,7 +324,7 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -90,
+							"value": -900,
 							"displayValue": "90 tons/year"
 						}
 					]
@@ -374,8 +372,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -100,
-							"displayValue": "100 tons/year"
+							"value": -1000,
+							"displayValue": "1000 tons/year"
 						}
 					]
 				},
@@ -398,8 +396,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -30,
-							"displayValue": "30 tons/year"
+							"value": -300,
+							"displayValue": "300 tons/year"
 						}
 					]
 				},
@@ -446,8 +444,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -120,
-							"displayValue": "120 tons/year"
+							"value": -1200,
+							"displayValue": "1200 tons/year"
 						}
 					]
 				},
@@ -470,8 +468,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -400,
-							"displayValue": "400 tons/year"
+							"value": -4000,
+							"displayValue": "4000 tons/year"
 						}
 					]
 				},
@@ -518,8 +516,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -1000,
-							"displayValue": "1000 tons/year"
+							"value": -10000,
+							"displayValue": "10000 tons/year"
 						}
 					]
 				},
@@ -542,8 +540,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -150,
-							"displayValue": "150 tons/year"
+							"value": -1500,
+							"displayValue": "1500 tons/year"
 						}
 					]
 				},
@@ -590,8 +588,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -250,
-							"displayValue": "250 tons/year"
+							"value": -2500,
+							"displayValue": "2500 tons/year"
 						}
 					]
 				},
@@ -614,8 +612,8 @@
 						{
 							"type": "emissions",
 							"label": "Emissions Reduction",
-							"value": -500,
-							"displayValue": "500 tons/year"
+							"value": -5000,
+							"displayValue": "5000 tons/year"
 						}
 					]
 				},
@@ -628,6 +626,66 @@
 							"label": "Cost",
 							"value": 10000,
 							"displayValue":  "$10000"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Fund Shortage!",
+			"description": "Research on green technology needs money! You need a way to raise funds. ",
+			"options": [
+				{
+					"title":  "Introduce Fuel Tax",
+					"description:":  "Introduce a new tax to account for environmental demages caused by the use of fuel.",
+					"effects": [
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 500000,
+							"displayValue": "$500,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Emissions Reduction",
+							"value": -1000,
+							"displayValue": "1000 tons/year"
+						},
+						{
+							"type": "happiness",
+							"label": "Happiness",
+							"bad": true,
+							"value": -1,
+							"displayValue": "-1"
+						}
+					]
+				},
+				{
+					"title":  "Sell Energy",
+					"description": "Sell surplus energy to other cities.",
+					"effects": [
+						{
+							"type": "saving",
+							"label": "Savings by 2050",
+							"value": 1000000,
+							"displayValue": "$1,000,000"
+						},
+						{
+							"type": "emissions",
+							"label": "Raise in Emissions",
+							"value": 500,
+							"displayValue": "500 tons/year"
+						}
+					]
+				},
+				{
+					"title":  "Do Nothing",
+					"description": "Reduce the budget on the research.",
+					"effects": [
+						{
+							"type": "display",
+							"label": "Cost",
+							"value": "$0"
 						}
 					]
 				}
