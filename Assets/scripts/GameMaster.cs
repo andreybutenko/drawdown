@@ -6,13 +6,15 @@ public class GameMaster : MonoBehaviour
 {
 
     public static GameMaster instance = null;
+	public GameObject eventPanel;
 
     public float secPerTick = 0.5f;
     public bool gameRunning = true;
-    public EventUI eventUi;
+    //public EventUI eventUi;
+	public NewEventUI eventUi;
     public StatusUITooltip tooltip;
-    public int eventCooldownDays = 30;
-    public int dailyEventChance = 5;
+    public int eventCooldownDays = 1;
+    public int dailyEventChance = 2;
 
     GameMasterBuilder buildingsBuilder;
 	GameMasterBuilder infrastructuresBuilder;
@@ -51,6 +53,10 @@ public class GameMaster : MonoBehaviour
 		infrastructuresBuilder.clear ();
 		vehiclesBuilder.clear ();
 		boatsBuilder.clear ();
+
+		eventPanel = GameObject.Find("EventPanel");
+		eventPanel.SetActive (false);
+
     }
 
     void Update() {
@@ -62,6 +68,7 @@ public class GameMaster : MonoBehaviour
                 incrementDay();
 
                 if(daysSinceLastEvent > eventCooldownDays && Random.Range(1, dailyEventChance) == 1) {
+					eventPanel.SetActive (true);
                     eventUi.displayRandomEvent();
                     daysSinceLastEvent = 0;
                 }

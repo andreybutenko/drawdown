@@ -1,0 +1,14 @@
+{
+	"events": [
+		{
+			"title": "A Growing City!", 
+			"description": "Your city is growing quickly, and you're concerned about potential gridlock.You have some options to address this:",
+			"cost" : "$50000"
+		},
+		{
+			"title": "Waste Management",
+			"description": "Insufficient efforts to promote recycling, composting, and other methods of waste diversion means your waste-processing facilities will soon be overwhelmed! To avoid disaster, you need to make a decision:",
+			"cost" : "$10000"
+		}
+	]
+}
