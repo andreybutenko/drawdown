@@ -30,7 +30,7 @@ public class GameMaster : MonoBehaviour
 
     [HideInInspector]
     public int balance = 5000000;
-    int annualInflow = 100000;
+    public int annualInflow = 100000;
     int totalEmissions = 0;
     public int annualEmissions = 3471000; // Seattle 2014
 

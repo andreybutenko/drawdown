@@ -12,14 +12,14 @@ public class ButtonNo : MonoBehaviour
 	public GameMaster gameMaster;
 	void Start ()  
 	{  
-		GetComponent<Button>().onClick.AddListener(() => { OnClickShot(); });  
+		GetComponent<Button>().onClick.AddListener(() => { OnClick(); });  
 		eventPanel = GameObject.Find("EventPanel");
 
 
 	}  
 
 
-	void OnClickShot(){  
+	void OnClick(){  
 		gameMaster.gameRunning = true;
 		eventPanel.SetActive (false);   
 	}  
