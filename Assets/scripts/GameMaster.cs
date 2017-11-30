@@ -6,12 +6,14 @@ public class GameMaster : MonoBehaviour
 {
 
     public static GameMaster instance = null;
+	//public GameObject eventPanel;
 
     public float secPerTick = 0.5f;
     public bool gameRunning = true;
-    public EventUI eventUi;
+    //public EventUI eventUi;
+	public NewEventUI eventUi;
     public StatusUITooltip tooltip;
-    public int eventCooldownDays = 30;
+    public int eventCooldownDays = 5;
     public int dailyEventChance = 5;
 
     GameMasterBuilder buildingsBuilder;
@@ -28,7 +30,7 @@ public class GameMaster : MonoBehaviour
 
     [HideInInspector]
     public int balance = 5000000;
-    int annualInflow = 100000;
+    public int annualInflow = 100000;
     int totalEmissions = 0;
     public int annualEmissions = 3471000; // Seattle 2014
 
@@ -51,6 +53,9 @@ public class GameMaster : MonoBehaviour
 		infrastructuresBuilder.clear ();
 		vehiclesBuilder.clear ();
 		boatsBuilder.clear ();
+
+
+
     }
 
     void Update() {
@@ -62,6 +67,7 @@ public class GameMaster : MonoBehaviour
                 incrementDay();
 
                 if(daysSinceLastEvent > eventCooldownDays && Random.Range(1, dailyEventChance) == 1) {
+
                     eventUi.displayRandomEvent();
                     daysSinceLastEvent = 0;
                 }
