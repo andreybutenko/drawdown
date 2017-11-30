@@ -1,19 +1,661 @@
 {
 	"events": [
-		{
-			"title": "A Growing City!", 
-			"description": "Your city is growing quickly, and you're concerned about potential gridlock.You have some options to address this:",
-			"cost" : 33333,
-			"emission"  : -248947,
-			"saving": 8976786
-			
-		},
-		{
-			"title": "Waste Management",
-			"description": "Insufficient efforts to promote recycling, composting, and other methods of waste diversion means your waste-processing facilities will soon be overwhelmed! To avoid disaster, you need to make a decision:",
-			"cost" : 100000,
-			"emission"  : -20000,
-			"saving": 999999
-		}
+	  {
+		"rank": 1,
+		"name": "Refrigerant Management",
+		"category": "Materials",
+		"emissions": 89.74,
+		"cost": "NA",
+		"savings": -902.77
+	  },
+	  {
+		"rank": 2,
+		"name": "Wind Turbines (Onshore)",
+		"category": "Electricity Generation",
+		"emissions": 84.60,
+		"cost": 1225.37,
+		"savings": 7425.00
+	  },
+	  {
+		"rank": 3,
+		"name": "Reduced Food Waste",
+		"category": "Food",
+		"emissions": 70.53,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 4,
+		"name": "Plant-Rich Diet",
+		"category": "Food",
+		"emissions": 66.11,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 5,
+		"name": "Tropical Forests",
+		"category": "Land Use",
+		"emissions": 61.23,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 6,
+		"name": "Educating Girls",
+		"category": "Women and Girls",
+		"emissions": 59.60,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 7,
+		"name": "Family Planning",
+		"category": "Women and Girls",
+		"emissions": 59.60,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 8,
+		"name": "Solar Farms",
+		"category": "Electricity Generation",
+		"emissions": 36.90,
+		"cost": -80.60,
+		"savings": 5023.84
+	  },
+	  {
+		"rank": 9,
+		"name": "Silvopasture",
+		"category": "Food",
+		"emissions": 31.19,
+		"cost": 41.59,
+		"savings": 699.37
+	  },
+	  {
+		"rank": 10,
+		"name": "Rooftop Solar",
+		"category": "Electricity Generation",
+		"emissions": 24.60,
+		"cost": 453.14,
+		"savings": 3457.63
+	  },
+	  {
+		"rank": 11,
+		"name": "Regenerative Agriculture",
+		"category": "Food",
+		"emissions": 23.15,
+		"cost": 57.22,
+		"savings": 1928.10
+	  },
+	  {
+		"rank": 12,
+		"name": "Temperate Forests",
+		"category": "Land Use",
+		"emissions": 22.61,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 13,
+		"name": "Peatlands",
+		"category": "Land Use",
+		"emissions": 21.57,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 14,
+		"name": "Tropical Staple Trees",
+		"category": "Food",
+		"emissions": 20.19,
+		"cost": 120.07,
+		"savings": 626.97
+	  },
+	  {
+		"rank": 15,
+		"name": "Afforestation",
+		"category": "Land Use",
+		"emissions": 18.06,
+		"cost": 29.44,
+		"savings": 392.33
+	  },
+	  {
+		"rank": 16,
+		"name": "Conservation Agriculture",
+		"category": "Food",
+		"emissions": 17.35,
+		"cost": 37.53,
+		"savings": 2119.07
+	  },
+	  {
+		"rank": 17,
+		"name": "Tree Intercropping",
+		"category": "Food",
+		"emissions": 17.20,
+		"cost": 146.99,
+		"savings": 22.10
+	  },
+	  {
+		"rank": 18,
+		"name": "Geothermal",
+		"category": "Electricity Generation",
+		"emissions": 16.60,
+		"cost": -155.48,
+		"savings": 1024.34
+	  },
+	  {
+		"rank": 19,
+		"name": "Managed Grazing",
+		"category": "Food",
+		"emissions": 16.34,
+		"cost": 50.48,
+		"savings": 735.27
+	  },
+	  {
+		"rank": 20,
+		"name": "Nuclear",
+		"category": "Electricity Generation",
+		"emissions": 16.09,
+		"cost": 0.88,
+		"savings": 1713.40
+	  },
+	  {
+		"rank": 21,
+		"name": "Clean Cookstoves",
+		"category": "Food",
+		"emissions": 15.81,
+		"cost": 72.16,
+		"savings": 166.28
+	  },
+	  {
+		"rank": 22,
+		"name": "Wind Turbines (Offshore)",
+		"category": "Electricity Generation",
+		"emissions": 15.15,
+		"cost": 545.30,
+		"savings": 762.50
+	  },
+	  {
+		"rank": 23,
+		"name": "Farmland Restoration",
+		"category": "Food",
+		"emissions": 14.08,
+		"cost": 72.24,
+		"savings": 1342.47
+	  },
+	  {
+		"rank": 24,
+		"name": "Improved Rice Cultivation",
+		"category": "Food",
+		"emissions": 11.34,
+		"cost": "NA",
+		"savings": 519.06
+	  },
+	  {
+		"rank": 25,
+		"name": "Concentrated Solar",
+		"category": "Electricity Generation",
+		"emissions": 10.90,
+		"cost": 1319.70,
+		"savings": 413.85
+	  },
+	  {
+		"rank": 26,
+		"name": "Electric Vehicles",
+		"category": "Transport",
+		"emissions": 10.80,
+		"cost": 14148.00,
+		"savings": 9726.40
+	  },
+	  {
+		"rank": 27,
+		"name": "District Heating",
+		"category": "Buildings and Cities",
+		"emissions": 9.38,
+		"cost": 457.10,
+		"savings": 3543.50
+	  },
+	  {
+		"rank": 28,
+		"name": "Multistrata Agroforestry",
+		"category": "Food",
+		"emissions": 9.28,
+		"cost": 26.76,
+		"savings": 709.75
+	  },
+	  {
+		"rank": 29,
+		"name": "Wave and Tidal",
+		"category": "Electricity Generation",
+		"emissions": 9.20,
+		"cost": 411.84,
+		"savings": -1004.70
+	  },
+	  {
+		"rank": 30,
+		"name": "Methane Digesters (Large)",
+		"category": "Electricity Generation",
+		"emissions": 8.40,
+		"cost": 201.41,
+		"savings": 148.83
+	  },
+	  {
+		"rank": 31,
+		"name": "Insulation",
+		"category": "Buildings and Cities",
+		"emissions": 8.27,
+		"cost": 3655.92,
+		"savings": 2513.33
+	  },
+	  {
+		"rank": 32,
+		"name": "Ships",
+		"category": "Transport",
+		"emissions": 7.87,
+		"cost": 915.93,
+		"savings": 424.38
+	  },
+	  {
+		"rank": 33,
+		"name": "LED Lighting (Household)",
+		"category": "Buildings and Cities",
+		"emissions": 7.81,
+		"cost": 323.52,
+		"savings": 1729.54
+	  },
+	  {
+		"rank": 34,
+		"name": "Biomass",
+		"category": "Electricity Generation",
+		"emissions": 7.50,
+		"cost": 402.31,
+		"savings": 519.35
+	  },
+	  {
+		"rank": 35,
+		"name": "Bamboo",
+		"category": "Land Use",
+		"emissions": 7.22,
+		"cost": 23.79,
+		"savings": 264.80
+	  },
+	  {
+		"rank": 36,
+		"name": "Alternative Cement",
+		"category": "Materials",
+		"emissions": 6.69,
+		"cost": -273.90,
+		"savings": "NA"
+	  },
+	  {
+		"rank": 37,
+		"name": "Mass Transit",
+		"category": "Transport",
+		"emissions": 6.57,
+		"cost": "NA",
+		"savings": 2379.73
+	  },
+	  {
+		"rank": 38,
+		"name": "Forest Protection",
+		"category": "Land Use",
+		"emissions": 6.20,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 39,
+		"name": "Indigenous Peoples’ Land Management",
+		"category": "Land Use",
+		"emissions": 6.19,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 40,
+		"name": "Trucks",
+		"category": "Transport",
+		"emissions": 6.18,
+		"cost": 543.54,
+		"savings": 2781.63
+	  },
+	  {
+		"rank": 41,
+		"name": "Solar Water",
+		"category": "Electricity Generation",
+		"emissions": 6.08,
+		"cost": 2.99,
+		"savings": 773.65
+	  },
+	  {
+		"rank": 42,
+		"name": "Heat Pumps",
+		"category": "Buildings and Cities",
+		"emissions": 5.20,
+		"cost": 118.71,
+		"savings": 1546.66
+	  },
+	  {
+		"rank": 43,
+		"name": "Airplanes",
+		"category": "Transport",
+		"emissions": 5.05,
+		"cost": 662.42,
+		"savings": 3187.80
+	  },
+	  {
+		"rank": 44,
+		"name": "LED Lighting (Commercial)",
+		"category": "Buildings and Cities",
+		"emissions": 5.04,
+		"cost": -205.05,
+		"savings": 1089.63
+	  },
+	  {
+		"rank": 45,
+		"name": "Building Automation",
+		"category": "Buildings and Cities",
+		"emissions": 4.62,
+		"cost": 68.12,
+		"savings": 880.55
+	  },
+	  {
+		"rank": 46,
+		"name": "Water Saving - Home",
+		"category": "Materials",
+		"emissions": 4.61,
+		"cost": 72.44,
+		"savings": 1800.12
+	  },
+	  {
+		"rank": 47,
+		"name": "Bioplastic",
+		"category": "Materials",
+		"emissions": 4.30,
+		"cost": 19.15,
+		"savings": "NA"
+	  },
+	  {
+		"rank": 48,
+		"name": "In-Stream Hydro",
+		"category": "Electricity Generation",
+		"emissions": 4.00,
+		"cost": 202.53,
+		"savings": 568.36
+	  },
+	  {
+		"rank": 49,
+		"name": "Cars",
+		"category": "Transport",
+		"emissions": 4.00,
+		"cost": -598.69,
+		"savings": 1761.72
+	  },
+	  {
+		"rank": 50,
+		"name": "Cogeneration",
+		"category": "Electricity Generation",
+		"emissions": 3.97,
+		"cost": 279.25,
+		"savings": 566.93
+	  },
+	  {
+		"rank": 51,
+		"name": "Perennial Biomass",
+		"category": "Land Use",
+		"emissions": 3.33,
+		"cost": 77.94,
+		"savings": 541.89
+	  },
+	  {
+		"rank": 52,
+		"name": "Coastal Wetlands",
+		"category": "Land Use",
+		"emissions": 3.19,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 53,
+		"name": "System of Rice Intensification",
+		"category": "Food",
+		"emissions": 3.13,
+		"cost": "NA",
+		"savings": 677.83
+	  },
+	  {
+		"rank": 54,
+		"name": "Walkable Cities",
+		"category": "Buildings and Cities",
+		"emissions": 2.92,
+		"cost": "NA",
+		"savings": 3278.24
+	  },
+	  {
+		"rank": 55,
+		"name": "Household Recycling",
+		"category": "Materials",
+		"emissions": 2.77,
+		"cost": 366.92,
+		"savings": 71.13
+	  },
+	  {
+		"rank": 56,
+		"name": "Industrial Recycling",
+		"category": "Materials",
+		"emissions": 2.77,
+		"cost": 366.92,
+		"savings": 71.13
+	  },
+	  {
+		"rank": 57,
+		"name": "Smart Thermostats",
+		"category": "Buildings and Cities",
+		"emissions": 2.62,
+		"cost": 74.16,
+		"savings": 640.10
+	  },
+	  {
+		"rank": 58,
+		"name": "Landfill Methane",
+		"category": "Buildings and Cities",
+		"emissions": 2.50,
+		"cost": -1.82,
+		"savings": 67.57
+	  },
+	  {
+		"rank": 59,
+		"name": "Bike Infrastructure",
+		"category": "Buildings and Cities",
+		"emissions": 2.31,
+		"cost": -2026.97,
+		"savings": 400.47
+	  },
+	  {
+		"rank": 60,
+		"name": "Composting",
+		"category": "Food",
+		"emissions": 2.28,
+		"cost": -63.72,
+		"savings": -60.82
+	  },
+	  {
+		"rank": 61,
+		"name": "Smart Glass",
+		"category": "Buildings and Cities",
+		"emissions": 2.19,
+		"cost": 932.30,
+		"savings": 325.10
+	  },
+	  {
+		"rank": 62,
+		"name": "Women Smallholders",
+		"category": "Women and Girls",
+		"emissions": 2.06,
+		"cost": "NA",
+		"savings": 87.60
+	  },
+	  {
+		"rank": 63,
+		"name": "Telepresence",
+		"category": "Transport",
+		"emissions": 1.99,
+		"cost": 127.72,
+		"savings": 1310.59
+	  },
+	  {
+		"rank": 64,
+		"name": "Methane Digesters (Small)",
+		"category": "Electricity Generation",
+		"emissions": 1.90,
+		"cost": 15.50,
+		"savings": 13.90
+	  },
+	  {
+		"rank": 65,
+		"name": "Nutrient Management",
+		"category": "Food",
+		"emissions": 1.81,
+		"cost": "NA",
+		"savings": 102.32
+	  },
+	  {
+		"rank": 66,
+		"name": "High-speed Rail",
+		"category": "Transport",
+		"emissions": 1.52,
+		"cost": 1038.42,
+		"savings": 368.10
+	  },
+	  {
+		"rank": 67,
+		"name": "Farmland Irrigation",
+		"category": "Food",
+		"emissions": 1.33,
+		"cost": 216.16,
+		"savings": 429.67
+	  },
+	  {
+		"rank": 68,
+		"name": "Waste-to-Energy",
+		"category": "Electricity Generation",
+		"emissions": 1.10,
+		"cost": 36.00,
+		"savings": 19.82
+	  },
+	  {
+		"rank": 69,
+		"name": "Electric Bikes",
+		"category": "Transport",
+		"emissions": 0.96,
+		"cost": 106.75,
+		"savings": 226.07
+	  },
+	  {
+		"rank": 70,
+		"name": "Recycled Paper",
+		"category": "Materials",
+		"emissions": 0.90,
+		"cost": 573.48,
+		"savings": "NA"
+	  },
+	  {
+		"rank": 71,
+		"name": "Water Distribution",
+		"category": "Buildings and Cities",
+		"emissions": 0.87,
+		"cost": 137.37,
+		"savings": 903.11
+	  },
+	  {
+		"rank": 72,
+		"name": "Biochar",
+		"category": "Food",
+		"emissions": 0.81,
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 73,
+		"name": "Green Roofs",
+		"category": "Buildings and Cities",
+		"emissions": 0.77,
+		"cost": 1393.29,
+		"savings": 988.46
+	  },
+	  {
+		"rank": 74,
+		"name": "Trains",
+		"category": "Transport",
+		"emissions": 0.52,
+		"cost": 808.64,
+		"savings": 313.86
+	  },
+	  {
+		"rank": 75,
+		"name": "Ridesharing",
+		"category": "Transport",
+		"emissions": 0.32,
+		"cost": "NA",
+		"savings": 185.56
+	  },
+	  {
+		"rank": 76,
+		"name": "Micro Wind",
+		"category": "Electricity Generation",
+		"emissions": 0.20,
+		"cost": 36.12,
+		"savings": 19.90
+	  },
+	  {
+		"rank": 77,
+		"name": "Energy Storage (Distributed)",
+		"category": "Electricity Generation",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 77,
+		"name": "Energy Storage (Utilities)",
+		"category": "Electricity Generation",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 77,
+		"name": "Grid Flexibility",
+		"category": "Electricity Generation",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 78,
+		"name": "Microgrids",
+		"category": "Electricity Generation",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 79,
+		"name": "Net Zero Buildings",
+		"category": "Buildings and Cities",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  },
+	  {
+		"rank": 80,
+		"name": "Retrofitting",
+		"category": "Buildings and Cities",
+		"emissions": "NA",
+		"cost": "NA",
+		"savings": "NA"
+	  }
 	]
 }
+			

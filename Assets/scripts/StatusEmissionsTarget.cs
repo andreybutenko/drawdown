@@ -5,16 +5,16 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class StatusEmissions : MonoBehaviour {
+public class StatusEmissionsTarget : MonoBehaviour {
     public GameMaster gameMaster;
-    Text emissionsText;
+    Text emissionsTargetText;
 
     void Start() {
-        emissionsText = gameObject.GetComponent<Text>();
+        emissionsTargetText = gameObject.GetComponent<Text>();
     }
 
     void Update() {
-        emissionsText.text = "Emissions: " + formatEmission(gameMaster.getCurrentEmissions()) + " GT";
+        emissionsTargetText.text = "Target: " + formatEmission(gameMaster.getTargetEmissions()) + " GT";
     }
 
     string formatEmission(float value) {

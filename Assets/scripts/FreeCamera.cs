@@ -44,11 +44,11 @@ namespace FreeCamera
             {
                 if (EventSystem.current.IsPointerOverGameObject())
                 {
-                    Debug.Log("UI is clicked, return true");
+                    // Debug.Log("UI is clicked, return true");
                 }
                 else
                 {
-                    Debug.Log("Nothing on UGUI is clicked, return false");
+                    // Debug.Log("Nothing on UGUI is clicked, return false");
                     transform.Translate(Vector3.left * Input.GetAxis("Mouse X"));
                     transform.Translate(Vector3.down * Input.GetAxis("Mouse Y"));
                 }
