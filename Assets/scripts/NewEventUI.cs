@@ -11,6 +11,9 @@ public class NewEventUI : MonoBehaviour {
 	public GameObject eventPanel;
     public GameObject resultPanel;
 
+    RawImage bodyImage;
+    RawImage hatImage;
+
 	List<JSONObject> eventList;
 	JSONObject currentEventObj = null;
 
@@ -24,6 +27,8 @@ public class NewEventUI : MonoBehaviour {
 	void Start() {
 		eventPanel = GameObject.Find("EventPanel");
         resultPanel = GameObject.Find("ResultPanel");
+        bodyImage = eventPanel.transform.Find("Body").GetComponent<RawImage>();
+        hatImage = eventPanel.transform.Find("Hat").GetComponent<RawImage>();
         resultPanel.SetActive(false);
     }
 
@@ -44,11 +49,13 @@ public class NewEventUI : MonoBehaviour {
 
 	public void displayEvent(JSONObject eventObj) {
 		currentEventObj = eventObj;
-   
 
         eventPanel.transform.Find("Title").GetComponent<Text>().text = eventObj.GetField("name").str;
         eventPanel.transform.Find("Description").GetComponent<Text> ().text = eventObj.GetField ("category").str;
         eventPanel.transform.Find("CostBg/Cost").GetComponent<Text> ().text = "Cost: $" + eventObj.GetField("cost").n + "B";
+
+        bodyImage.color = Random.ColorHSV();
+        hatImage.color = Random.ColorHSV();
 
         resultPanel.transform.Find("Title").GetComponent<Text>().text = eventObj.GetField("name").str;
         resultPanel.transform.Find("Cost").GetComponent<Text>().text = "This policy will cost <color=green>$" + eventObj.GetField("cost").n + "B</color> to implement initially.";
