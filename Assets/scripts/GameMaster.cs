@@ -9,7 +9,7 @@ public class GameMaster : MonoBehaviour
 	//public GameObject eventPanel;
     
     //public EventUI eventUi;
-	public NewEventUI eventUi;
+	public EventUI eventUi;
     public StatusUITooltip tooltip;
     
     public float balance = 500; // billions of dollars

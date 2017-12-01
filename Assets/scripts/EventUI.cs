@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewEventUI : MonoBehaviour {
-	public static NewEventUI instance = null;
+public class EventUI : MonoBehaviour {
+	public static EventUI instance = null;
 
 	public GameMaster gameMaster;
 	public TextAsset events;

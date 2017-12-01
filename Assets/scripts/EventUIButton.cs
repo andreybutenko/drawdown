@@ -5,17 +5,15 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 
-public class ButtonOption : MonoBehaviour, IPointerDownHandler {
-    public NewEventUI eventUi;
+public class EventUIButton : MonoBehaviour, IPointerDownHandler {
+    public EventUI eventUi;
     public enum ButtonType { accept, reject, dismiss };
     public ButtonType buttonType;
-
-    // Use this for initialization
+    
     void Start() {
 
     }
-
-    // Update is called once per frame
+    
     void Update() {
 
     }
