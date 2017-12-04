@@ -12,6 +12,9 @@ public class EventUI : MonoBehaviour {
     public GameObject resultPanel;
 	public GameObject finalResultPanel;
 
+    public int targetEventCount = 20;
+    int currentEventCount = 0;
+
     RawImage bodyImage;
     RawImage hatImage;
 
@@ -42,11 +45,18 @@ public class EventUI : MonoBehaviour {
     }
 
     public void displayRandomEvent() {
+        if(currentEventCount >= targetEventCount) {
+            eventPanel.SetActive(false);
+            finalResultPanel.SetActive(true);
+            return;
+        }
+
 		if (eventList.Count > 0) {
 			eventPanel.SetActive (true);
 			int index = Random.Range (0, eventList.Count - 1);
             JSONObject selectedEvent = eventList[index];
             if(!selectedEvent.HasField("disabled")) {
+                currentEventCount++;
                 displayEvent(eventList[index]);
                 eventList.RemoveAt(index);
             }
@@ -55,7 +65,7 @@ public class EventUI : MonoBehaviour {
                 displayRandomEvent();
             }
 		}
-	}
+    }
 
 	public void displayEvent(JSONObject eventObj) {
 		currentEventObj = eventObj;
@@ -84,18 +94,11 @@ public class EventUI : MonoBehaviour {
     }
 
     public void rejectEvent() {
-			currentEventObj = null;
-		if (eventList.Count == 0) {
-			eventPanel.SetActive (false);
-			finalResultPanel .SetActive (true);
-		}
+		currentEventObj = null;
     }
 
     public void dismissEvent() {
         resultPanel.SetActive(false);
 		currentEventObj = null;
-		if (eventList.Count > 0) {
-			eventPanel.SetActive (true);
-		}
     }
 }
