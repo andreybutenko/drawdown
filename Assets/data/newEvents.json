@@ -6,8 +6,9 @@
 		"description": "Every refrigerator and air conditioner contains chemical refrigerants that absorb and release heat to enable chilling. Refrigerants, specifically CFCs and HCFCs, were once culprits in depleting the ozone layer. Thanks to the 1987 Montreal Protocol, they have been phased out. HFCs, the primary replacement, spare the ozone layer, but have 1,000 to 9,000 times greater capacity to warm the atmosphere than carbon dioxide.",
 		"category": "Materials",
 		"emissions": 89.74,
-		"cost": "NA",
-		"savings": -902.77
+		"cost": 200,
+		"savings": -902.77,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 2,
@@ -19,6 +20,7 @@
 		"savings": 7425.00
 	  },
 	  {
+		"disabled": true,
 		"rank": 3,
 		"name": "Reduced Food Waste",
 		"description": "A third of the food raised or prepared does not make it from farm or factory to fork. Producing uneaten food squanders a whole host of resources—seeds, water, energy, land, fertilizer, hours of labor, financial capital—and generates greenhouse gases at every stage—including methane when organic matter lands in the global rubbish bin. The food we waste is responsible for roughly 8 percent of global emissions.",
@@ -28,6 +30,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 4,
 		"name": "Plant-Rich Diet",
 		"description": "Plant-rich diets reduce emissions and also tend to be healthier, leading to lower rates of chronic disease. According to a 2016 study, business-as-usual emissions could be reduced by as much as 70 percent through adopting a vegan diet and 63 percent for a vegetarian diet, which includes cheese, milk, and eggs. $1 trillion in annual health-care costs and lost productivity would be saved.",
@@ -37,6 +40,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 5,
 		"name": "Tropical Forests",
 		"description": "In recent decades, tropical forests have suffered extensive clearing, fragmentation, degradation, and depletion of biodiversity. Once blanketing 12 percent of the world’s landmass, they now cover just 5 percent. While destruction continues in many places, tropical forest restoration is growing and may sequester as much as six gigatons of carbon dioxide per year.",
@@ -46,6 +50,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 6,
 		"name": "Educating Girls",
 		"description": "Education lays a foundation for vibrant lives for girls and women, their families, and their communities. It also is one of the most powerful levers available for avoiding emissions by curbing population growth. Women with more years of education have fewer and healthier children, and actively manage their reproductive health.",
@@ -55,6 +60,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 7,
 		"name": "Family Planning",
 		"description": "Securing women’s right to voluntary, high-quality family planning around the world would have powerful positive impacts on the health, welfare, and life expectancy of both women and their children. It also can affect greenhouse gas emissions.",
@@ -100,6 +106,7 @@
 		"savings": 1928.10
 	  },
 	  {
+		"disabled": true,
 		"rank": 12,
 		"name": "Temperate Forests",
 		"description": "The world’s 1.9 billion acres of temperate forests are a net-carbon sink. According to the World Resources Institute, more than 1.4 billion additional acres are candidates for restoration—either large-scale, closed forest or mixed mosaics of forests, more sparsely growing trees, and land uses such as agriculture. With restoration comes additional carbon sequestration.",
@@ -109,6 +116,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 13,
 		"name": "Peatlands",
 		"description": "Peatlands are unique ecosystems which cover just 3 percent of the earth’s land area. However, they are second only to oceans in the amount of carbon they store—twice that held by the world’s forests, at an estimated 500 to 600 gigatons. Protecting them through land preservation and fire prevention is a prime opportunity to manage global greenhouse gases.",
@@ -213,8 +221,9 @@
 		"description": "Currently, rice cultivation is responsible for at least 10 percent of agricultural greenhouse gas emissions and 9 to 19 percent of global methane emissions. That is because flooded rice paddies are ideal anaerobic environments for methane-producing microbes that feed on decomposing organic matter, a process known as methanogenesis. This solution increases effeciency to avoid these risks.",
 		"category": "Food",
 		"emissions": 11.34,
-		"cost": "NA",
-		"savings": 519.06
+		"cost": 100,
+		"savings": 519.06,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 25,
@@ -321,8 +330,9 @@
 		"description": "Cement is a vital source of strength in infrastructure, second only to water as one of the most used substances in the world. It is also a source of emissions, generating 5 to 6 percent annually. To reduce emissions from the decarbonization process, the crucial strategy is to change the composition of cement.",
 		"category": "Materials",
 		"emissions": 6.69,
-		"cost": -273.90,
-		"savings": "NA"
+		"cost": 100,
+		"savings": 239,
+		"guesses": "cost, savings"
 	  },
 	  {
 		"rank": 37,
@@ -330,10 +340,12 @@
 		"description": "The benefits go beyond emissions reduction and accrue to all city dwellers, not just those who use mass transit. By reducing the volume of cars, mass transit relieves traffic congestion. With fewer people driving, fewer accidents and fatalities take place. Overall, air pollution drops. Mass transit also makes cities more equitable by providing mobility to those who cannot drive.",
 		"category": "Transport",
 		"emissions": 6.57,
-		"cost": "NA",
-		"savings": 2379.73
+		"cost": 100,
+		"savings": 2379.73,
+		"guesses": "cost"
 	  },
 	  {
+		"disabled": true,
 		"rank": 38,
 		"name": "Forest Protection",
 		"description": "Since humans began farming, the number of trees on earth has fallen by 46 percent. Carbon emissions from deforestation and associated land use change are estimated to be 10 to 15 percent of the world’s total. The benefits of forest conservation include biodiversity protection, non-timber products, erosion control, pollination, ecotourism, and other ecosystem services.",
@@ -343,6 +355,7 @@
 		"savings": "NA"
 	  },
 	  {
+		"disabled": true,
 		"rank": 39,
 		"name": "Indigenous Peoples’ Land Management",
 		"description": "Indigenous communities have long been the frontline of resistance against  deforestation; mineral, oil, and gas extraction; and the expansion of monocrop plantations. indigenous land management conserves biodiversity, maintains a range of ecosystems services, safeguards rich cultures and traditional ways of life, and responds to the needs of the most vulnerable.",
@@ -421,7 +434,8 @@
 		"category": "Materials",
 		"emissions": 4.30,
 		"cost": 19.15,
-		"savings": "NA"
+		"savings": 200,
+		"guesses": "savings"
 	  },
 	  {
 		"rank": 48,
@@ -460,6 +474,7 @@
 		"savings": 541.89
 	  },
 	  {
+		"disabled": true,
 		"rank": 52,
 		"name": "Coastal Wetlands",
 		"description": "Coastal wetlands provide nurseries for fish, feeding grounds for migratory birds, a first line of defense against storm surges and floodwaters, and natural filtration systems that boost water quality and recharge aquifers. Relative to their land area, they also sequester huge amounts of carbon in plants aboveground and in roots and soils below.",
@@ -474,8 +489,9 @@
 		"description": "System of Rice Intensification methods benefit soil and root systems, while lowering the inputs required for production and increasing crop yields. Now practiced by 4 million to 5 million farmers around the world, SRI yields are 50 to 100 percent higher than conventional rice production, reduce seed use by 80 to 90 percent, and reduce water inputs by 25 to 50 percent.",
 		"category": "Food",
 		"emissions": 3.13,
-		"cost": "NA",
-		"savings": 677.83
+		"cost": 100,
+		"savings": 677.83,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 54,
@@ -483,8 +499,9 @@
 		"description": "Walkable trips are not simply those with a manageable distance from point A to point B, perhaps a ten- to fifteen-minute journey on foot. They have walk appeal, thanks to a density of fellow walkers, a mix of land and real estate uses, and key design elements that create compelling environments for people on foot. ",
 		"category": "Buildings and Cities",
 		"emissions": 2.92,
-		"cost": "NA",
-		"savings": 3278.24
+		"cost": 300,
+		"savings": 3278.24,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 55,
@@ -555,8 +572,9 @@
 		"description": "Women have less access to a range of resources, from land rights and credit to education and technology. Even though they farm as capably and efficiently as men, inequality in assets, inputs, and support means women produce less on the same amount of land. Closing this gender gap can improve the lives of women, their families and communities, while addressing global warming.",
 		"category": "Women and Girls",
 		"emissions": 2.06,
-		"cost": "NA",
-		"savings": 87.60
+		"cost": 25,
+		"savings": 87.60,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 63,
@@ -582,8 +600,9 @@
 		"description": "Nitrogen fertilizers have vastly improved the productive capacity of agricultural systems in the past century. However, the nitrogen that is not utilized by plants, causes untold problems such as chemically destroying organic matter in the soil and creating algal blooms and oceanic dead zoness.",
 		"category": "Food",
 		"emissions": 1.81,
-		"cost": "NA",
-		"savings": 102.32
+		"cost": 20,
+		"savings": 102.32,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 66,
@@ -640,6 +659,7 @@
 		"savings": 903.11
 	  },
 	  {
+		"disabled": true,
 		"rank": 72,
 		"name": "Biochar",
 		"description": "Biochar is commonly made from waste material ranging from peanut shells to rice straw to wood scraps. During the slow baking of biomass in the near or total absence of oxygen, gas and oil separate from carbon-rich solids. The output is twofold: fuels that can be used for energy and biochar that can be used to enrich soil.",
@@ -672,8 +692,9 @@
 		"description": "Ridesharing is the act of filling empty seats by pairing drivers and riders who share common origins, destinations, or stops en route. When trips are pooled, people split costs, ease traffic, and lighten the load on infrastructure, while curtailing emissions per person.",
 		"category": "Transport",
 		"emissions": 0.32,
-		"cost": "NA",
-		"savings": 185.56
+		"cost": 10,
+		"savings": 185.56,
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 76,
@@ -689,54 +710,66 @@
 		"name": "Energy Storage (Distributed)",
 		"description": "The wind and sun have their own timetables, making generation variable. Storage can ensure electricity is available, even when sunshine or breezes are not. There are two basic sources of small-scale storage: stand-alone batteries and electric vehicles. If they are used to enable more reliance on renewables, there will be substantial climate benefits.",
 		"category": "Electricity Generation",
+		"factor": 1.5,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 77,
 		"name": "Energy Storage (Utilities)",
 		"description": "Utilities use highly-polluting peaker plants to supplement larger plants when demand peaks suddenly. Energy storage is vital to reduce peaker emission. One option is pumping water from lower reservoirs into higher ones, and releasing water as-needed to power turbines. Concentrated solar power plants are also used, where molten salt holds heat until it is needed to generate electricity. ",
 		"category": "Electricity Generation",
+		"factor": 1.5,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 77,
 		"name": "Grid Flexibility",
 		"description": "Many technologies contribute to grid flexibility: constant renewables, such as geothermal; utility-scale storage, such as pumped hydro and molten salt; small-scale storage, such as batteries; and demand-response tools, such as smart thermostats and smart appliances, to mediate peaks in demand.",
 		"category": "Electricity Generation",
+		"factor": 1.5,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 78,
 		"name": "Microgrids",
 		"description": "A microgrid is a localized grouping of distributed energy sources, like solar, wind, in-stream hydro, and biomass, together with energy storage or backup generation and load management tools. Microgrids are nimble, efficient microcosms of the big grid, designed for smaller, diverse energy sources.",
 		"category": "Electricity Generation",
+		"factor": 1.25,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 79,
 		"name": "Net Zero Buildings",
 		"description": "A net zero building is one that has zero net energy consumption, producing as much energy as it uses in a year. In some months it may generate excess electricity through distributed renewables; at other times it may require electricity from the grid. On balance, it is self-supporting.",
 		"category": "Buildings and Cities",
+		"factor": 1.25,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  },
 	  {
 		"rank": 80,
 		"name": "Retrofitting",
 		"description": "Much of the attention paid to green buildings is in new construction, but retrofitting brings energy efficiency to the existing built environment. The world has 1.6 trillion square feet of building stock, 99 percent of which is not green. Retrofitting addresses how heat and cold are escaping or entering the building, the systems that cool or warm inhabitants, and how spaces are illuminated.",
 		"category": "Buildings and Cities",
+		"factor": 1.25,
 		"emissions": "NA",
-		"cost": "NA",
-		"savings": "NA"
+		"cost": 200,
+		"savings": "NA",
+		"guesses": "cost"
 	  }
 	]
 }

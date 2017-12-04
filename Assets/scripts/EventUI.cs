@@ -45,8 +45,15 @@ public class EventUI : MonoBehaviour {
 		if (eventList.Count > 0) {
 			eventPanel.SetActive (true);
 			int index = Random.Range (0, eventList.Count - 1);
-			displayEvent (eventList [index]);
-			eventList.RemoveAt (index);
+            JSONObject selectedEvent = eventList[index];
+            if(!selectedEvent.HasField("disabled")) {
+                displayEvent(eventList[index]);
+                eventList.RemoveAt(index);
+            }
+            else {
+                eventList.RemoveAt(index);
+                displayRandomEvent();
+            }
 		}
 	}
 
