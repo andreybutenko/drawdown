@@ -3,6 +3,7 @@
 	  {
 		"rank": 1,
 		"name": "Refrigerant Management",
+		"description": "Every refrigerator and air conditioner contains chemical refrigerants that absorb and release heat to enable chilling. Refrigerants, specifically CFCs and HCFCs, were once culprits in depleting the ozone layer. Thanks to the 1987 Montreal Protocol, they have been phased out. HFCs, the primary replacement, spare the ozone layer, but have 1,000 to 9,000 times greater capacity to warm the atmosphere than carbon dioxide.",
 		"category": "Materials",
 		"emissions": 89.74,
 		"cost": "NA",
@@ -11,6 +12,7 @@
 	  {
 		"rank": 2,
 		"name": "Wind Turbines (Onshore)",
+		"description": "The wind industry is marked by a proliferation of turbines, dropping costs, and heightened performance. In many locales, wind is either competitive with or less expensive than coal-generated electricity—and it has no fuel costs and no pollution. Ongoing cost reduction will soon make wind energy the least expensive source of electricity, perhaps within a decade.",
 		"category": "Electricity Generation",
 		"emissions": 84.60,
 		"cost": 1225.37,
@@ -19,6 +21,7 @@
 	  {
 		"rank": 3,
 		"name": "Reduced Food Waste",
+		"description": "A third of the food raised or prepared does not make it from farm or factory to fork. Producing uneaten food squanders a whole host of resources—seeds, water, energy, land, fertilizer, hours of labor, financial capital—and generates greenhouse gases at every stage—including methane when organic matter lands in the global rubbish bin. The food we waste is responsible for roughly 8 percent of global emissions.",
 		"category": "Food",
 		"emissions": 70.53,
 		"cost": "NA",
@@ -27,6 +30,7 @@
 	  {
 		"rank": 4,
 		"name": "Plant-Rich Diet",
+		"description": "Plant-rich diets reduce emissions and also tend to be healthier, leading to lower rates of chronic disease. According to a 2016 study, business-as-usual emissions could be reduced by as much as 70 percent through adopting a vegan diet and 63 percent for a vegetarian diet, which includes cheese, milk, and eggs. $1 trillion in annual health-care costs and lost productivity would be saved.",
 		"category": "Food",
 		"emissions": 66.11,
 		"cost": "NA",
@@ -35,6 +39,7 @@
 	  {
 		"rank": 5,
 		"name": "Tropical Forests",
+		"description": "In recent decades, tropical forests have suffered extensive clearing, fragmentation, degradation, and depletion of biodiversity. Once blanketing 12 percent of the world’s landmass, they now cover just 5 percent. While destruction continues in many places, tropical forest restoration is growing and may sequester as much as six gigatons of carbon dioxide per year.",
 		"category": "Land Use",
 		"emissions": 61.23,
 		"cost": "NA",
@@ -43,6 +48,7 @@
 	  {
 		"rank": 6,
 		"name": "Educating Girls",
+		"description": "Education lays a foundation for vibrant lives for girls and women, their families, and their communities. It also is one of the most powerful levers available for avoiding emissions by curbing population growth. Women with more years of education have fewer and healthier children, and actively manage their reproductive health.",
 		"category": "Women and Girls",
 		"emissions": 59.60,
 		"cost": "NA",
@@ -51,6 +57,7 @@
 	  {
 		"rank": 7,
 		"name": "Family Planning",
+		"description": "Securing women’s right to voluntary, high-quality family planning around the world would have powerful positive impacts on the health, welfare, and life expectancy of both women and their children. It also can affect greenhouse gas emissions.",
 		"category": "Women and Girls",
 		"emissions": 59.60,
 		"cost": "NA",
@@ -59,6 +66,7 @@
 	  {
 		"rank": 8,
 		"name": "Solar Farms",
+		"description": "The sun provides a virtually unlimited, clean, and free fuel at a price that never changes. Solar farms take advantage of that resource, with large-scale arrays of hundreds, thousands, or in some cases millions of photovoltaic (PV) panels. They operate at a utility scale like conventional power plants in the amount of electricity they produce, but dramatically differ in their emissions.",
 		"category": "Electricity Generation",
 		"emissions": 36.90,
 		"cost": -80.60,
@@ -67,6 +75,7 @@
 	  {
 		"rank": 9,
 		"name": "Silvopasture",
+		"description": "Silvopasture is an ancient practice that integrates trees and pasture into a single system for raising livestock. Research suggests silvopasture far outpaces any grassland technique for counteracting the methane emissions of livestock and sequestering carbon under-hoof. Pastures strewn or crisscrossed with trees sequester five to ten times as much carbon as those of the same size that are treeless, storing it in both biomass and soil.",
 		"category": "Food",
 		"emissions": 31.19,
 		"cost": 41.59,
@@ -75,6 +84,7 @@
 	  {
 		"rank": 10,
 		"name": "Rooftop Solar",
+		"description": "Small-scale solar systems, typically sited on rooftops, accounted for roughly 30 percent of PV capacity installed worldwide in 2015. In Germany, a leader in solar, rooftops boast 1.5 million systems. In Bangladesh, population 157 million, more than 3.6 million home solar systems have been installed.",
 		"category": "Electricity Generation",
 		"emissions": 24.60,
 		"cost": 453.14,
@@ -83,6 +93,7 @@
 	  {
 		"rank": 11,
 		"name": "Regenerative Agriculture",
+		"description": "The world cannot be fed unless the soil is fed. Regenerative agriculture enhances and sustains the health of the soil by restoring its carbon content, which in turn improves productivity—just the opposite of conventional agriculture.",
 		"category": "Food",
 		"emissions": 23.15,
 		"cost": 57.22,
@@ -91,6 +102,7 @@
 	  {
 		"rank": 12,
 		"name": "Temperate Forests",
+		"description": "The world’s 1.9 billion acres of temperate forests are a net-carbon sink. According to the World Resources Institute, more than 1.4 billion additional acres are candidates for restoration—either large-scale, closed forest or mixed mosaics of forests, more sparsely growing trees, and land uses such as agriculture. With restoration comes additional carbon sequestration.",
 		"category": "Land Use",
 		"emissions": 22.61,
 		"cost": "NA",
@@ -99,6 +111,7 @@
 	  {
 		"rank": 13,
 		"name": "Peatlands",
+		"description": "Peatlands are unique ecosystems which cover just 3 percent of the earth’s land area. However, they are second only to oceans in the amount of carbon they store—twice that held by the world’s forests, at an estimated 500 to 600 gigatons. Protecting them through land preservation and fire prevention is a prime opportunity to manage global greenhouse gases.",
 		"category": "Land Use",
 		"emissions": 21.57,
 		"cost": "NA",
@@ -107,6 +120,7 @@
 	  {
 		"rank": 14,
 		"name": "Tropical Staple Trees",
+		"description": "Tropical staple tree crops can reverse erosion and runoff and create higher infiltration rates for rainwater. They can be grown on steep slopes and in a wide range of soils. They require lower inputs of fuel, fertilizer, and pesticides, if any at all.",
 		"category": "Food",
 		"emissions": 20.19,
 		"cost": 120.07,
@@ -115,6 +129,7 @@
 	  {
 		"rank": 15,
 		"name": "Afforestation",
+		"description": "Creating new forests where there were none before is the aim of afforestation. Degraded pasture and agricultural lands, or other lands corrupted from uses such as mining, are ripe for strategic planting of trees and perennial biomass.",
 		"category": "Land Use",
 		"emissions": 18.06,
 		"cost": 29.44,
@@ -123,6 +138,7 @@
 	  {
 		"rank": 16,
 		"name": "Conservation Agriculture",
+		"description": "Conservation agriculture adheres to three core principles. Minimize soil disturbance, maintain soil cover, and manage crop rotation: farmers change what is grown and where.",
 		"category": "Food",
 		"emissions": 17.35,
 		"cost": 37.53,
@@ -131,6 +147,7 @@
 	  {
 		"rank": 17,
 		"name": "Tree Intercropping",
+		"description": "Like all regenerative land-use practices, tree intercropping—intermingling trees and crops—increases the carbon content of the soil and productivity of the land.",
 		"category": "Food",
 		"emissions": 17.20,
 		"cost": 146.99,
@@ -139,6 +156,7 @@
 	  {
 		"rank": 18,
 		"name": "Geothermal",
+		"description": "The heat energy contained below the earth’s surface is about 100 billion times more than current world energy consumption. Geothermal power taps into underground reservoirs of steamy hot water, which can be piped to the surface to drive turbines that produce electricity.",
 		"category": "Electricity Generation",
 		"emissions": 16.60,
 		"cost": -155.48,
@@ -147,6 +165,7 @@
 	  {
 		"rank": 19,
 		"name": "Managed Grazing",
+		"description": "Grazing animals create extraordinary environments—witness the Serengeti plains and tall grass prairies of the United States. Where original grasslands are still intact, they are abundant lands with carbon-rich soils. They benefit from the activity of migratory herds that cluster tightly for protection; munch grasses to the crown; disturb the soil with their hooves, intermixing their urine and feces; and then move on.",
 		"category": "Food",
 		"emissions": 16.34,
 		"cost": 50.48,
@@ -155,6 +174,7 @@
 	  {
 		"rank": 20,
 		"name": "Nuclear",
+		"description": "With nuclear power, there is a climate dilemma: Is an increase in the number of nuclear power plants, with all their flaws and inherent risks, worth the gamble? Or, as some proponents insist, will there be a total meltdown of climate by limiting their use?",
 		"category": "Electricity Generation",
 		"emissions": 16.09,
 		"cost": 0.88,
@@ -163,6 +183,7 @@
 	  {
 		"rank": 21,
 		"name": "Clean Cookstoves",
+		"description": "The cooking fuels used by 40 percent of humanity are wood, charcoal, animal dung, crop residues, and coal. As these burn, often inside homes or in areas with limited ventilation, they release plumes of smoke and soot liable for 4.3 million premature deaths each year.",
 		"category": "Food",
 		"emissions": 15.81,
 		"cost": 72.16,
@@ -171,6 +192,7 @@
 	  {
 		"rank": 22,
 		"name": "Wind Turbines (Offshore)",
+		"description": "The wind industry is marked by a proliferation of turbines, dropping costs, and heightened performance. In many locales, wind is either competitive with or less expensive than coal-generated electricity.",
 		"category": "Electricity Generation",
 		"emissions": 15.15,
 		"cost": 545.30,
@@ -179,6 +201,7 @@
 	  {
 		"rank": 23,
 		"name": "Farmland Restoration",
+		"description": "Around the world, farmers are walking away from lands that were once cultivated or grazed because those lands have been “farmed out.” The causes range from damaging agricultural practices to desertification, from lack of market access to migration. It can be cheaper to walk away from the land than to work it.",
 		"category": "Food",
 		"emissions": 14.08,
 		"cost": 72.24,
@@ -187,6 +210,7 @@
 	  {
 		"rank": 24,
 		"name": "Improved Rice Cultivation",
+		"description": "Currently, rice cultivation is responsible for at least 10 percent of agricultural greenhouse gas emissions and 9 to 19 percent of global methane emissions. That is because flooded rice paddies are ideal anaerobic environments for methane-producing microbes that feed on decomposing organic matter, a process known as methanogenesis. This solution increases effeciency to avoid these risks.",
 		"category": "Food",
 		"emissions": 11.34,
 		"cost": "NA",
@@ -195,6 +219,7 @@
 	  {
 		"rank": 25,
 		"name": "Concentrated Solar",
+		"description": "Instead of converting sunlight directly into electricity like photovoltaics (PV) do, it relies on steam turbines. A critical advantage of CSP is energy storage. Unlike PV panels and wind turbines, CSP makes heat before it makes electricity, and heat is easier to store.",
 		"category": "Electricity Generation",
 		"emissions": 10.90,
 		"cost": 1319.70,
@@ -203,6 +228,7 @@
 	  {
 		"rank": 26,
 		"name": "Electric Vehicles",
+		"description": "EVs will disrupt auto and oil business models because they are simpler to make, have fewer moving parts, and require little maintenance and no fossil fuels. What is the catch? With EVs, it is “range anxiety”—how far the car can go on a single charge.",
 		"category": "Transport",
 		"emissions": 10.80,
 		"cost": 14148.00,
@@ -211,6 +237,7 @@
 	  {
 		"rank": 27,
 		"name": "District Heating",
+		"description": "In district heating and cooling (DHC) systems, a central plant channels hot and/or cool water via a network of underground pipes to many buildings. Heat exchangers and heat pumps separate buildings from the distribution network, so that heating and cooling are centralized while thermostats remain independent. Rather than having small boilers and chilling units whir away at each structure, DHC provides thermal energy collectively—and more efficiently.",
 		"category": "Buildings and Cities",
 		"emissions": 9.38,
 		"cost": 457.10,
@@ -219,6 +246,7 @@
 	  {
 		"rank": 28,
 		"name": "Multistrata Agroforestry",
+		"description": "Multistrata Agroforestry blends an overstory of taller trees and an understory of one or more layers of crops to maximize both horizontal and vertical space. They prevent erosion and flooding, recharge groundwater, restore degraded land and soils, support biodiversity by providing habitat and corridors between fragmented ecosystems, and absorb and store carbon.",
 		"category": "Food",
 		"emissions": 9.28,
 		"cost": 26.76,
@@ -227,6 +255,7 @@
 	  {
 		"rank": 29,
 		"name": "Wave and Tidal",
+		"description": "While the ocean’s perpetual power makes wave and tidal energy possible, it also creates obstacles. Operating in harsh and complex marine environments is a challenge—from designing systems to building installations to maintaining them over time. It is more expensive than producing electricity on solid ground.",
 		"category": "Electricity Generation",
 		"emissions": 9.20,
 		"cost": 411.84,
@@ -235,6 +264,7 @@
 	  {
 		"rank": 30,
 		"name": "Methane Digesters (Large)",
+		"description": "Agricultural, industrial, and human digestion processes create an ongoing (and growing) stream of organic refuse. Without thoughtful management, organic wastes can emit fugitive methane gases as they decompose. Methane creates a warming effect 34 times stronger than carbon dioxide over one hundred years. At scale, methane digesters produce large amounts of energy and fertilizer.",
 		"category": "Electricity Generation",
 		"emissions": 8.40,
 		"cost": 201.41,
@@ -243,6 +273,7 @@
 	  {
 		"rank": 31,
 		"name": "Insulation",
+		"description": "Insulation is one of the most practical and cost-effective ways to make buildings more energy efficient—both in new construction and through retrofitting older buildings that often are not well encased. At relatively low cost, insulation results in lower utility bills, while keeping out moisture and improving air quality.",
 		"category": "Buildings and Cities",
 		"emissions": 8.27,
 		"cost": 3655.92,
@@ -251,6 +282,7 @@
 	  {
 		"rank": 32,
 		"name": "Ships",
+		"description": "Shipping produces 3 percent of global greenhouse gas emissions, and forecasts predict they could be 50 percent to 250 percent higher in 2050. Fuel-saving innovations include: flat extensions called ducktails at the rear to lower resistance; and compressed air pumped through the bottom of the hull to create a layer of bubbles that “lubricate” passage through the water.",
 		"category": "Transport",
 		"emissions": 7.87,
 		"cost": 915.93,
@@ -259,6 +291,7 @@
 	  {
 		"rank": 33,
 		"name": "LED Lighting (Household)",
+		"description": "When the sun sets, more than a billion people live in the dark. Low energy use means LEDs can be powered with small solar cells. Solar-LED lights can replace expensive kerosene lamps and their noxious fumes and emissions, while addressing the problem of light poverty.",
 		"category": "Buildings and Cities",
 		"emissions": 7.81,
 		"cost": 323.52,
@@ -267,6 +300,7 @@
 	  {
 		"rank": 34,
 		"name": "Biomass",
+		"description": "Carbon-rich biomass can be harvested to produce heat, create steam for electricity production, or be processed into oil or gas. Doing so trades in carbon that is already in circulation, cycling from atmosphere to plants and back again. Grow plants and sequester carbon. Process and burn biomass. Emit carbon. Repeat. It produces net zero new emissions, so long as use and replenishment remain in balance.",
 		"category": "Electricity Generation",
 		"emissions": 7.50,
 		"cost": 402.31,
@@ -275,6 +309,7 @@
 	  {
 		"rank": 35,
 		"name": "Bamboo",
+		"description": "Bamboo rapidly sequesters carbon in biomass and soil, taking it out of the air faster than almost any other plant, and can thrive on inhospitable degraded lands—the ideal place to put bamboo to work.",
 		"category": "Land Use",
 		"emissions": 7.22,
 		"cost": 23.79,
@@ -283,6 +318,7 @@
 	  {
 		"rank": 36,
 		"name": "Alternative Cement",
+		"description": "Cement is a vital source of strength in infrastructure, second only to water as one of the most used substances in the world. It is also a source of emissions, generating 5 to 6 percent annually. To reduce emissions from the decarbonization process, the crucial strategy is to change the composition of cement.",
 		"category": "Materials",
 		"emissions": 6.69,
 		"cost": -273.90,
@@ -291,6 +327,7 @@
 	  {
 		"rank": 37,
 		"name": "Mass Transit",
+		"description": "The benefits go beyond emissions reduction and accrue to all city dwellers, not just those who use mass transit. By reducing the volume of cars, mass transit relieves traffic congestion. With fewer people driving, fewer accidents and fatalities take place. Overall, air pollution drops. Mass transit also makes cities more equitable by providing mobility to those who cannot drive.",
 		"category": "Transport",
 		"emissions": 6.57,
 		"cost": "NA",
@@ -299,6 +336,7 @@
 	  {
 		"rank": 38,
 		"name": "Forest Protection",
+		"description": "Since humans began farming, the number of trees on earth has fallen by 46 percent. Carbon emissions from deforestation and associated land use change are estimated to be 10 to 15 percent of the world’s total. The benefits of forest conservation include biodiversity protection, non-timber products, erosion control, pollination, ecotourism, and other ecosystem services.",
 		"category": "Land Use",
 		"emissions": 6.20,
 		"cost": "NA",
@@ -307,6 +345,7 @@
 	  {
 		"rank": 39,
 		"name": "Indigenous Peoples’ Land Management",
+		"description": "Indigenous communities have long been the frontline of resistance against  deforestation; mineral, oil, and gas extraction; and the expansion of monocrop plantations. indigenous land management conserves biodiversity, maintains a range of ecosystems services, safeguards rich cultures and traditional ways of life, and responds to the needs of the most vulnerable.",
 		"category": "Land Use",
 		"emissions": 6.19,
 		"cost": "NA",
@@ -315,6 +354,7 @@
 	  {
 		"rank": 40,
 		"name": "Trucks",
+		"description": "Comprising just over 4 percent of vehicles in the United States and 9 percent of total mileage, they consume more than 25 percent of fuel—50 billion gallons of diesel each year. Worldwide, road freight is responsible for about 6 percent of all emissions, and growing.",
 		"category": "Transport",
 		"emissions": 6.18,
 		"cost": 543.54,
@@ -323,6 +363,7 @@
 	  {
 		"rank": 41,
 		"name": "Solar Water",
+		"description": "Water heating is a major energy use. Hot water for showers, laundry, and washing dishes consumes a quarter of residential energy use worldwide; in commercial buildings, that number is roughly 12 percent. Solar water heating—exposing water to the sun to warm it—can reduce that fuel consumption by 50 to 70 percent.",
 		"category": "Electricity Generation",
 		"emissions": 6.08,
 		"cost": 2.99,
@@ -331,6 +372,7 @@
 	  {
 		"rank": 42,
 		"name": "Heat Pumps",
+		"description": "The means to increase building efficiency are at hand, and one technology stands out from the rest: heat pumps. Like a refrigerator, a heat pump has a compressor, condenser, expansion valve, and evaporator, and transfers heat from a cold space to a hot one. In winter, that means pulling heat from outside and sending it into a building. In summer, heat is pulled from inside and sent out. The source or sink of heat can be the ground, air, or water.",
 		"category": "Buildings and Cities",
 		"emissions": 5.20,
 		"cost": 118.71,
@@ -339,6 +381,7 @@
 	  {
 		"rank": 43,
 		"name": "Airplanes",
+		"description": "A century after the first commercial flight, the aviation industry has become a fixture of global transport…and of global emissions. Today, some 20,000 airplanes are in service around the world, producing at minimum 2.5 percent of annual emissions. With upwards of 50,000 planes expected to take to the skies by 2040—and take to them more often—fuel efficiency will have to rise dramatically if emissions are to be reduced.",
 		"category": "Transport",
 		"emissions": 5.05,
 		"cost": 662.42,
@@ -347,6 +390,7 @@
 	  {
 		"rank": 44,
 		"name": "LED Lighting (Commercial)",
+		"description": "Lighting accounts for 15 percent of global electricity use. LEDs transfer 80 percent of their energy use into creating light—rather than heat, like older technologies—and reduce electricity consumption and air-conditioning loads accordingly. LED streetlights can save up to 70 percent of energy and significantly reduce maintenance costs.",
 		"category": "Buildings and Cities",
 		"emissions": 5.04,
 		"cost": -205.05,
@@ -355,6 +399,7 @@
 	  {
 		"rank": 45,
 		"name": "Building Automation",
+		"description": "dopting automated rather than manual building management systems can reduce energy consumption by 10 to 20 percent. A building automation system (BAS) is a building’s brain. Equipped with sensors, BAS buildings are constantly scanning and rebalancing for greatest efficiency and effectiveness. Lights switch off when no one’s around, for example, and windows vent to improve air quality and temperature.",
 		"category": "Buildings and Cities",
 		"emissions": 4.62,
 		"cost": 68.12,
@@ -363,6 +408,7 @@
 	  {
 		"rank": 46,
 		"name": "Water Saving - Home",
+		"description": "Local restrictions on water consumption and policies requiring efficient plumbing are highly effective. Product labeling can inform consumer choices, while incentives, namely rebates on purchases of efficient appliances and fixtures, can encourage voluntary action.",
 		"category": "Materials",
 		"emissions": 4.61,
 		"cost": 72.44,
@@ -371,6 +417,7 @@
 	  {
 		"rank": 47,
 		"name": "Bioplastic",
+		"description": "Globally, we produce roughly 310 million tons of plastic each year. Almost all of it is petro-plastic, made from fossil fuels. Experts, however, estimate that 90 percent of current plastics could be derived from plants instead. Bio-based plastics come from the earth, and those that are biodegradable can return to it—often with lower carbon emissions.",
 		"category": "Materials",
 		"emissions": 4.30,
 		"cost": 19.15,
@@ -379,6 +426,7 @@
 	  {
 		"rank": 48,
 		"name": "In-Stream Hydro",
+		"description": "Smaller in-stream turbines are different. Placed within a free-flowing river or stream, they capture water’s kinetic energy without creating a reservoir and its repercussions. The underwater analogue to wind turbines, their blades rotate as water moves past, generating relatively continuous electricity. No barriers, diversions, or storage are required.",
 		"category": "Electricity Generation",
 		"emissions": 4.00,
 		"cost": 202.53,
@@ -387,6 +435,7 @@
 	  {
 		"rank": 49,
 		"name": "Cars",
+		"description": "Hybridization has been called the vanguard of a revolution, catalyzing fuel efficiency and challenging the auto industry to innovate. But that is true only if they pave the way for full-electric vehicles—only motors and no engines at all—which can run solely on clean energy.",
 		"category": "Transport",
 		"emissions": 4.00,
 		"cost": -598.69,
@@ -395,6 +444,7 @@
 	  {
 		"rank": 50,
 		"name": "Cogeneration",
+		"description": "Coal- and gas-fired power plants produce large amounts of waste heat. Cogeneration systems, also known as combined heat and power (CHP), capture excess heat from electricity production and put the otherwise-forfeited thermal energy to work. It can be used at or near the site for district heating or to create additional electricity.",
 		"category": "Electricity Generation",
 		"emissions": 3.97,
 		"cost": 279.25,
@@ -403,6 +453,7 @@
 	  {
 		"rank": 51,
 		"name": "Perennial Biomass",
+		"description": "Because energy inputs for annual bioenergy crops, such as corn, are so high, they make little progress on cutting emissions. Perennial bioenergy crops can be different. Cultivated appropriately, they can reduce emissions by 85 percent compared to corn ethanol. Replacing annuals with perennials also raises carbon sequestration in soil.",
 		"category": "Land Use",
 		"emissions": 3.33,
 		"cost": 77.94,
@@ -411,6 +462,7 @@
 	  {
 		"rank": 52,
 		"name": "Coastal Wetlands",
+		"description": "Coastal wetlands provide nurseries for fish, feeding grounds for migratory birds, a first line of defense against storm surges and floodwaters, and natural filtration systems that boost water quality and recharge aquifers. Relative to their land area, they also sequester huge amounts of carbon in plants aboveground and in roots and soils below.",
 		"category": "Land Use",
 		"emissions": 3.19,
 		"cost": "NA",
@@ -419,6 +471,7 @@
 	  {
 		"rank": 53,
 		"name": "System of Rice Intensification",
+		"description": "System of Rice Intensification methods benefit soil and root systems, while lowering the inputs required for production and increasing crop yields. Now practiced by 4 million to 5 million farmers around the world, SRI yields are 50 to 100 percent higher than conventional rice production, reduce seed use by 80 to 90 percent, and reduce water inputs by 25 to 50 percent.",
 		"category": "Food",
 		"emissions": 3.13,
 		"cost": "NA",
@@ -427,6 +480,7 @@
 	  {
 		"rank": 54,
 		"name": "Walkable Cities",
+		"description": "Walkable trips are not simply those with a manageable distance from point A to point B, perhaps a ten- to fifteen-minute journey on foot. They have walk appeal, thanks to a density of fellow walkers, a mix of land and real estate uses, and key design elements that create compelling environments for people on foot. ",
 		"category": "Buildings and Cities",
 		"emissions": 2.92,
 		"cost": "NA",
@@ -435,6 +489,7 @@
 	  {
 		"rank": 55,
 		"name": "Household Recycling",
+		"description": "Recycling can reduce emissions because producing new products from recovered materials often saves energy. Forging recycled aluminum products, for example, uses 95 percent less energy than creating them from virgin materials. Effective strategies go beyond raising public awareness and include fees for landfill waste and redeemable deposits for recyclable materials",
 		"category": "Materials",
 		"emissions": 2.77,
 		"cost": 366.92,
@@ -443,6 +498,7 @@
 	  {
 		"rank": 56,
 		"name": "Industrial Recycling",
+		"description": "A suite of strategies can enhance recycling rates. Extended producer responsibility laws make companies responsible for managing goods post-use—an incentive to make products that are longer lasting, easier to fix, and as recyclable as possible. Marketplaces for secondary materials facilitate the exchange of recyclable and reusable goods.",
 		"category": "Materials",
 		"emissions": 2.77,
 		"cost": 366.92,
@@ -451,6 +507,7 @@
 	  {
 		"rank": 57,
 		"name": "Smart Thermostats",
+		"description": "At present, the majority of thermostats require manual operation or preset programming, and studies show people are notoriously unreliable in doing either efficiently. Smart thermostats eliminate the capriciousness of human behavior, thereby driving more predictable energy savings.",
 		"category": "Buildings and Cities",
 		"emissions": 2.62,
 		"cost": 74.16,
@@ -459,6 +516,7 @@
 	  {
 		"rank": 58,
 		"name": "Landfill Methane",
+		"description": "Landfills are a top source of methane emissions, releasing 12 percent of the world’s total. Landfill methane can be tapped, captured, and used as a fairly clean energy source for generating electricity or heat, rather than leaking into the air or being dispersed as waste. The climate benefit is twofold: prevent landfill emissions and displace coal, oil, or natural gas that might otherwise be used.",
 		"category": "Buildings and Cities",
 		"emissions": 2.50,
 		"cost": -1.82,
@@ -467,6 +525,7 @@
 	  {
 		"rank": 59,
 		"name": "Bike Infrastructure",
+		"description": "In the places where cycling thrives, programs and policies complement physical infrastructure. Educational initiatives target cyclists and motorists alike, for example, and stricter liability laws protect those on two wheels. A virtuous cycle is clear: With more infrastructure come more riders.",
 		"category": "Buildings and Cities",
 		"emissions": 2.31,
 		"cost": -2026.97,
@@ -475,6 +534,7 @@
 	  {
 		"rank": 60,
 		"name": "Composting",
+		"description": "Nearly half of the solid waste produced globally is organic or biodegradable. Much of it ends up in landfills; there, it decomposes in the absence of oxygen and produces the greenhouse gas methane, which is up to 34 times more powerful than carbon dioxide over a century. While many landfills have some form of methane management, it is far more effective to divert organic waste to composting.",
 		"category": "Food",
 		"emissions": 2.28,
 		"cost": -63.72,
@@ -483,6 +543,7 @@
 	  {
 		"rank": 61,
 		"name": "Smart Glass",
+		"description": "Various measures can improve a window’s efficiency: layered panes, reflective low-emissivity coatings, insulating gas between panes, and tightly sealed frames. More adaptive technologies, dubbed “smart glass,” make windows responsive in real time to sunlight and weather, reducing a building’s energy load for lighting and improving heating and cooling efficiency.",
 		"category": "Buildings and Cities",
 		"emissions": 2.19,
 		"cost": 932.30,
@@ -491,6 +552,7 @@
 	  {
 		"rank": 62,
 		"name": "Women Smallholders",
+		"description": "Women have less access to a range of resources, from land rights and credit to education and technology. Even though they farm as capably and efficiently as men, inequality in assets, inputs, and support means women produce less on the same amount of land. Closing this gender gap can improve the lives of women, their families and communities, while addressing global warming.",
 		"category": "Women and Girls",
 		"emissions": 2.06,
 		"cost": "NA",
@@ -499,6 +561,7 @@
 	  {
 		"rank": 63,
 		"name": "Telepresence",
+		"description": "When it is possible to exist and function remotely, the need to travel becomes less necessary. In a world of global-business footprints and international collaboration, if people can work together without being in the same place, they can dodge a host of travel-related emissions.",
 		"category": "Transport",
 		"emissions": 1.99,
 		"cost": 127.72,
@@ -507,6 +570,7 @@
 	  {
 		"rank": 64,
 		"name": "Methane Digesters (Small)",
+		"description": "Anaerobic digestion is used in backyards and farmyards around the world, and that use is on the rise. It produces biogas (an energy source) and fertilizer. Biogas can reduce demand for wood, charcoal, and dung as fuel sources and therefore their noxious fumes, which impact both planetary and human health. Fertilizer enriches home gardens and small agricultural plots.",
 		"category": "Electricity Generation",
 		"emissions": 1.90,
 		"cost": 15.50,
@@ -515,6 +579,7 @@
 	  {
 		"rank": 65,
 		"name": "Nutrient Management",
+		"description": "Nitrogen fertilizers have vastly improved the productive capacity of agricultural systems in the past century. However, the nitrogen that is not utilized by plants, causes untold problems such as chemically destroying organic matter in the soil and creating algal blooms and oceanic dead zoness.",
 		"category": "Food",
 		"emissions": 1.81,
 		"cost": "NA",
@@ -523,6 +588,7 @@
 	  {
 		"rank": 66,
 		"name": "High-speed Rail",
+		"description": "HSR is powered almost exclusively by electricity, not diesel. Compared to driving, flying, or riding conventional rail, it is the fastest way to travel between two points that are a few hundred miles apart and reduces carbon emissions up to 90 percent. Note that HSR is expensive and requires high ridership to break even.",
 		"category": "Transport",
 		"emissions": 1.52,
 		"cost": 1038.42,
@@ -531,6 +597,7 @@
 	  {
 		"rank": 67,
 		"name": "Farmland Irrigation",
+		"description": "The benefits of drip and sprinkler irrigation are numerous: crop yields improve, costs drop, and soil erosion declines. Lower humidity curtails pests. Surface and groundwater resources are better protected, and conflicts among various stakeholders for water resources may ease. However, both systems require infrastructure and upkeep, which can be expensive, sometimes prohibitively so.",
 		"category": "Food",
 		"emissions": 1.33,
 		"cost": 216.16,
@@ -539,6 +606,7 @@
 	  {
 		"rank": 68,
 		"name": "Waste-to-Energy",
+		"description": "In a sustainable world, waste would be reduced from the outset and composted, recycled, or reused. The current reality, however, is that cities and land-scarce countries face a dilemma about what to do with their trash. Waste-to-energy is a transitional strategy for a world that wastes too much and needs to reduce its emissions.",
 		"category": "Electricity Generation",
 		"emissions": 1.10,
 		"cost": 36.00,
@@ -547,6 +615,7 @@
 	  {
 		"rank": 69,
 		"name": "Electric Bikes",
+		"description": "Electric bikes are the most environmentally sound means of motorized transport in the world today. They come in many shapes and forms and are accompanied by a small battery-powered motor that can make hills manageable, journeys swifter, and longer trips more viable.",
 		"category": "Transport",
 		"emissions": 0.96,
 		"cost": 106.75,
@@ -555,6 +624,7 @@
 	  {
 		"rank": 70,
 		"name": "Recycled Paper",
+		"description": "Once recovered, used paper is shredded, pulped, cleaned, and rid of contaminants. It can then be made into any number of products, from office paper to newsprint to toilet paper rolls. A particular piece of paper can be reprocessed roughly five to seven times.",
 		"category": "Materials",
 		"emissions": 0.90,
 		"cost": 573.48,
@@ -563,6 +633,7 @@
 	  {
 		"rank": 71,
 		"name": "Water Distribution",
+		"description": "Pumping water from source to treatment plant to storage and distribution requires enormous amounts of energy. Utilities use the phrase “non-revenue water” to describe water losses along the way. The biggest problem is with smaller, long-running leaks that are less detectable. Vigilant, thorough detection and speed to resolution are key.",
 		"category": "Buildings and Cities",
 		"emissions": 0.87,
 		"cost": 137.37,
@@ -571,6 +642,7 @@
 	  {
 		"rank": 72,
 		"name": "Biochar",
+		"description": "Biochar is commonly made from waste material ranging from peanut shells to rice straw to wood scraps. During the slow baking of biomass in the near or total absence of oxygen, gas and oil separate from carbon-rich solids. The output is twofold: fuels that can be used for energy and biochar that can be used to enrich soil.",
 		"category": "Food",
 		"emissions": 0.81,
 		"cost": "NA",
@@ -579,6 +651,7 @@
 	  {
 		"rank": 73,
 		"name": "Green Roofs",
+		"description": "The soil and vegetation function as living insulation, moderating building temperatures year-round—cooler in summer, warmer in winter. Because the energy required for heating and air-conditioning is curbed, greenhouse gas emissions are lower, as are costs.",
 		"category": "Buildings and Cities",
 		"emissions": 0.77,
 		"cost": 1393.29,
@@ -587,6 +660,7 @@
 	  {
 		"rank": 74,
 		"name": "Trains",
+		"description": "Although trains have steadily improved their fuel-use efficiency in recent decades, rail was responsible for 3.5 percent of emissions within the transport sector in 2013. Better locomotives, more strategically placed, are enhanced by better cars—lighter, more aerodynamic, able to hold more cargo, and equipped with low-torque bearings.",
 		"category": "Transport",
 		"emissions": 0.52,
 		"cost": 808.64,
@@ -595,6 +669,7 @@
 	  {
 		"rank": 75,
 		"name": "Ridesharing",
+		"description": "Ridesharing is the act of filling empty seats by pairing drivers and riders who share common origins, destinations, or stops en route. When trips are pooled, people split costs, ease traffic, and lighten the load on infrastructure, while curtailing emissions per person.",
 		"category": "Transport",
 		"emissions": 0.32,
 		"cost": "NA",
@@ -603,6 +678,7 @@
 	  {
 		"rank": 76,
 		"name": "Micro Wind",
+		"description": "With capacity of 100 kilowatts or less, micro wind turbines are akin to the windmills of yore—standing solo in a cornfield, capturing the wind’s kinetic energy to meet the electricity needs of a family or small farm. Today, they are often used to pump water, charge batteries, and provide electrification in rural locations, all without producing greenhouse gases.",
 		"category": "Electricity Generation",
 		"emissions": 0.20,
 		"cost": 36.12,
@@ -611,6 +687,7 @@
 	  {
 		"rank": 77,
 		"name": "Energy Storage (Distributed)",
+		"description": "The wind and sun have their own timetables, making generation variable. Storage can ensure electricity is available, even when sunshine or breezes are not. There are two basic sources of small-scale storage: stand-alone batteries and electric vehicles. If they are used to enable more reliance on renewables, there will be substantial climate benefits.",
 		"category": "Electricity Generation",
 		"emissions": "NA",
 		"cost": "NA",
@@ -619,6 +696,7 @@
 	  {
 		"rank": 77,
 		"name": "Energy Storage (Utilities)",
+		"description": "Utilities use highly-polluting peaker plants to supplement larger plants when demand peaks suddenly. Energy storage is vital to reduce peaker emission. One option is pumping water from lower reservoirs into higher ones, and releasing water as-needed to power turbines. Concentrated solar power plants are also used, where molten salt holds heat until it is needed to generate electricity. ",
 		"category": "Electricity Generation",
 		"emissions": "NA",
 		"cost": "NA",
@@ -627,6 +705,7 @@
 	  {
 		"rank": 77,
 		"name": "Grid Flexibility",
+		"description": "Many technologies contribute to grid flexibility: constant renewables, such as geothermal; utility-scale storage, such as pumped hydro and molten salt; small-scale storage, such as batteries; and demand-response tools, such as smart thermostats and smart appliances, to mediate peaks in demand.",
 		"category": "Electricity Generation",
 		"emissions": "NA",
 		"cost": "NA",
@@ -635,6 +714,7 @@
 	  {
 		"rank": 78,
 		"name": "Microgrids",
+		"description": "A microgrid is a localized grouping of distributed energy sources, like solar, wind, in-stream hydro, and biomass, together with energy storage or backup generation and load management tools. Microgrids are nimble, efficient microcosms of the big grid, designed for smaller, diverse energy sources.",
 		"category": "Electricity Generation",
 		"emissions": "NA",
 		"cost": "NA",
@@ -643,6 +723,7 @@
 	  {
 		"rank": 79,
 		"name": "Net Zero Buildings",
+		"description": "A net zero building is one that has zero net energy consumption, producing as much energy as it uses in a year. In some months it may generate excess electricity through distributed renewables; at other times it may require electricity from the grid. On balance, it is self-supporting.",
 		"category": "Buildings and Cities",
 		"emissions": "NA",
 		"cost": "NA",
@@ -651,6 +732,7 @@
 	  {
 		"rank": 80,
 		"name": "Retrofitting",
+		"description": "Much of the attention paid to green buildings is in new construction, but retrofitting brings energy efficiency to the existing built environment. The world has 1.6 trillion square feet of building stock, 99 percent of which is not green. Retrofitting addresses how heat and cold are escaping or entering the building, the systems that cool or warm inhabitants, and how spaces are illuminated.",
 		"category": "Buildings and Cities",
 		"emissions": "NA",
 		"cost": "NA",

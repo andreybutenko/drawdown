@@ -54,7 +54,7 @@ public class EventUI : MonoBehaviour {
 		currentEventObj = eventObj;
 
         eventPanel.transform.Find("Title").GetComponent<Text>().text = eventObj.GetField("name").str;
-        eventPanel.transform.Find("Description").GetComponent<Text> ().text = eventObj.GetField ("category").str;
+        eventPanel.transform.Find("Description").GetComponent<Text> ().text = eventObj.GetField ("description").str;
         eventPanel.transform.Find("CostBg/Cost").GetComponent<Text> ().text = "Cost: $" + eventObj.GetField("cost").n + "B";
 
         bodyImage.color = Random.ColorHSV();
