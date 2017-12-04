@@ -18,10 +18,10 @@ public class GameMaster : MonoBehaviour
 
     int happiness = 6; // Seattle 2011
 
-    void Awake() {
+    void Start() {
 		balance = PassValue.balance;
-		emissions = PassValue.balance;
-		emissionsTarget = PassValue.balance;
+		emissions = PassValue.emissions;
+		emissionsTarget = PassValue.emissionsTarget;
         instance = this;
     }
 

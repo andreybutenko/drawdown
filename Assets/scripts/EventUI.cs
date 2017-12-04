@@ -10,6 +10,7 @@ public class EventUI : MonoBehaviour {
 	public TextAsset events;
 	public GameObject eventPanel;
     public GameObject resultPanel;
+	public GameObject finalResultPanel;
 
     RawImage bodyImage;
     RawImage hatImage;
@@ -27,9 +28,11 @@ public class EventUI : MonoBehaviour {
 	void Start() {
 		eventPanel = GameObject.Find("EventPanel");
         resultPanel = GameObject.Find("ResultPanel");
+		finalResultPanel = GameObject.Find ("FinalResultPanel");
         bodyImage = eventPanel.transform.Find("Body").GetComponent<RawImage>();
         hatImage = eventPanel.transform.Find("Hat").GetComponent<RawImage>();
         resultPanel.SetActive(false);
+		finalResultPanel.SetActive (false);
     }
 
     void Update() {
@@ -77,6 +80,7 @@ public class EventUI : MonoBehaviour {
 			currentEventObj = null;
 		if (eventList.Count == 0) {
 			eventPanel.SetActive (false);
+			finalResultPanel .SetActive (true);
 		}
     }
 

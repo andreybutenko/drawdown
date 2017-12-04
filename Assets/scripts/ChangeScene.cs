@@ -9,6 +9,7 @@ public class ChangeScene : MonoBehaviour {
 	public float newBalance;
 	public float newEmissions;
 	public float newEmissionsTarget;
+	public int level;
 
 	// Use this for initialization
 
@@ -19,6 +20,7 @@ public class ChangeScene : MonoBehaviour {
 	}
 
 	public void switchScene() {
+
 		adjustParameters ();
 		SceneManager.LoadScene ("test3.5");
 	}
@@ -29,6 +31,7 @@ public class ChangeScene : MonoBehaviour {
 	}
 
 	public void adjustParameters() {
+		PassValue.currentLevel = level;
 		PassValue.balance = newBalance;
 		PassValue.emissions = newEmissions;
 		PassValue.emissionsTarget = newEmissionsTarget;

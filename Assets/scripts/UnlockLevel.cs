@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine .UI;
 
 public class UnlockLevel : MonoBehaviour {
 
@@ -14,12 +15,14 @@ public class UnlockLevel : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		for (int i = 0; i < levels.Length; i++) {
+		for (int i = 0; i < PassValue.levels.Length; i++) {
 			button = GameObject.Find ("ButtonLevel" + (i + 1));
-			if (levels [i] == true) {
+			if (PassValue.levels [i] == true) {
 				button.GetComponent<ChangeScene>().enabled = true;
+				button.GetComponent <Image> ().color = Color.green;
 			} else {
 				button.GetComponent<ChangeScene>().enabled = false;
+				button.GetComponent <Image> ().color = Color.red;
 			}
 		}
 
