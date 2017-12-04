@@ -12,6 +12,9 @@ public class EventUI : MonoBehaviour {
     public GameObject resultPanel;
 	public GameObject finalResultPanel;
 
+    public float[] costFactorRange = new float[] { 0.5f, 2f };
+    float currentCostFactor = 1f;
+
     public int targetEventCount = 20;
     int currentEventCount = 0;
 
@@ -56,6 +59,7 @@ public class EventUI : MonoBehaviour {
 			int index = Random.Range (0, eventList.Count - 1);
             JSONObject selectedEvent = eventList[index];
             if(!selectedEvent.HasField("disabled")) {
+                currentCostFactor = Random.Range(costFactorRange[0], costFactorRange[1]);
                 currentEventCount++;
                 displayEvent(eventList[index]);
                 eventList.RemoveAt(index);
@@ -67,24 +71,28 @@ public class EventUI : MonoBehaviour {
 		}
     }
 
+    private float getCost(float cost) {
+        return Mathf.Round(cost * currentCostFactor * 100f) / 100f;
+    }
+
 	public void displayEvent(JSONObject eventObj) {
 		currentEventObj = eventObj;
 
         eventPanel.transform.Find("Title").GetComponent<Text>().text = eventObj.GetField("name").str;
         eventPanel.transform.Find("Description").GetComponent<Text> ().text = eventObj.GetField ("description").str;
-        eventPanel.transform.Find("CostBg/Cost").GetComponent<Text> ().text = "Cost: $" + eventObj.GetField("cost").n + "B";
+        eventPanel.transform.Find("CostBg/Cost").GetComponent<Text> ().text = "Cost: $" + getCost(eventObj.GetField("cost").n) + "B";
 
         bodyImage.color = Random.ColorHSV();
         hatImage.color = Random.ColorHSV();
 
         resultPanel.transform.Find("Title").GetComponent<Text>().text = eventObj.GetField("name").str;
-        resultPanel.transform.Find("Cost").GetComponent<Text>().text = "This policy will cost <color=green>$" + eventObj.GetField("cost").n + "B</color> to implement initially.";
+        resultPanel.transform.Find("Cost").GetComponent<Text>().text = "This policy will cost <color=green>$" + getCost(eventObj.GetField("cost").n) + "B</color> to implement initially.";
         resultPanel.transform.Find("Savings").GetComponent<Text>().text = "However, it will save the world <color=green>$" + eventObj.GetField("savings").n + "B</color> by 2050.";
         resultPanel.transform.Find("Emissions").GetComponent<Text>().text = "It will also mitigate <color=green>" + eventObj.GetField("emissions").n + " GT</color> of emissions.";
     }
 
     public void acceptEvent() {
-		if (gameMaster.balance >= currentEventObj.GetField ("cost").n) {
+		if (gameMaster.balance >= getCost(currentEventObj.GetField ("cost").n)) {
 			eventPanel.SetActive (false);
 			resultPanel.SetActive (true);
 

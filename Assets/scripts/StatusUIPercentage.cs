@@ -12,7 +12,6 @@ public class StatusUIPercentage : MonoBehaviour {
 	
 	void Update () {
         float proportion = (gameMaster.getCurrentEmissions() - initialValue) / (gameMaster.getTargetEmissions() - initialValue);
-        RectTransform rectTransform = gameObject.GetComponent<RectTransform>();
-        rectTransform.sizeDelta = new Vector2(150, Screen.height * proportion);
+        transform.localScale = new Vector3(1, proportion, 1);
     }
 }
