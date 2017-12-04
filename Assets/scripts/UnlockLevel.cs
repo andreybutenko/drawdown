@@ -19,10 +19,10 @@ public class UnlockLevel : MonoBehaviour {
 			button = GameObject.Find ("ButtonLevel" + (i + 1));
 			if (PassValue.levels [i] == true) {
 				button.GetComponent<ChangeScene>().enabled = true;
-				button.GetComponent <Image> ().color = Color.green;
+				button.GetComponent <Image> ().color = Color.white;
 			} else {
 				button.GetComponent<ChangeScene>().enabled = false;
-				button.GetComponent <Image> ().color = Color.red;
+				button.GetComponent <Image> ().color = Color.gray ;
 			}
 		}
 
