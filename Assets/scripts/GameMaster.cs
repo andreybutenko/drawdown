@@ -12,13 +12,16 @@ public class GameMaster : MonoBehaviour
 	public EventUI eventUi;
     public StatusUITooltip tooltip;
     
-    public float balance = 500; // billions of dollars
+	public float balance = 500; // billions of dollars
     public float emissions = 200; // gigatons of carbon
     public float emissionsTarget = 100; // gigatons of carbon
 
     int happiness = 6; // Seattle 2011
 
     void Awake() {
+		balance = PassValue.balance;
+		emissions = PassValue.balance;
+		emissionsTarget = PassValue.balance;
         instance = this;
     }
 

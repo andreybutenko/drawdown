@@ -33,7 +33,7 @@ public class EventUI : MonoBehaviour {
     }
 
     void Update() {
-        if(currentEventObj == null) {
+		if(currentEventObj == null) {
             displayRandomEvent();
         }
     }
@@ -64,20 +64,27 @@ public class EventUI : MonoBehaviour {
     }
 
     public void acceptEvent() {
-        eventPanel.SetActive(false);
-        resultPanel.SetActive(true);
+		if (gameMaster.balance >= currentEventObj.GetField ("cost").n) {
+			eventPanel.SetActive (false);
+			resultPanel.SetActive (true);
 
-        gameMaster.balance -= currentEventObj.GetField("cost").n;
-        gameMaster.emissions -= currentEventObj.GetField("emissions").n;
+			gameMaster.balance -= currentEventObj.GetField ("cost").n;
+			gameMaster.emissions -= currentEventObj.GetField ("emissions").n;
+		}
     }
 
     public void rejectEvent() {
-        currentEventObj = null;
+			currentEventObj = null;
+		if (eventList.Count == 0) {
+			eventPanel.SetActive (false);
+		}
     }
 
     public void dismissEvent() {
-        eventPanel.SetActive(true);
         resultPanel.SetActive(false);
-        currentEventObj = null;
+		currentEventObj = null;
+		if (eventList.Count > 0) {
+			eventPanel.SetActive (true);
+		}
     }
 }
