@@ -48,7 +48,7 @@ public class EventUI : MonoBehaviour {
     }
 
     public void displayRandomEvent() {
-        if(currentEventCount >= targetEventCount) {
+        if(currentEventCount >= targetEventCount || gameMaster.getCurrentEmissions() < gameMaster.getTargetEmissions()) {
             eventPanel.SetActive(false);
             finalResultPanel.SetActive(true);
             return;
